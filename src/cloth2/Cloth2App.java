@@ -3,7 +3,7 @@
  */
 
 package cloth2;
-
+import java.sql.*;
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;
 
@@ -38,7 +38,24 @@ public class Cloth2App extends SingleFrameApplication {
     /**
      * Main method launching the application.
      */
+    public static Statement stmt;
     public static void main(String[] args) {
+   
+
+try{  
+Class.forName("com.mysql.jdbc.Driver");  
+  
+Connection con=DriverManager.getConnection(  "jdbc:mysql://localhost:3306/sanky","root","root");  
+  
+//here sonoo is database name, root is username and password  
+  
+ stmt=con.createStatement();  
+  
+}catch(Exception E)
+{
+    System.out.println("Error  "+E);
+}
+
         launch(Cloth2App.class, args);
     }
 }
