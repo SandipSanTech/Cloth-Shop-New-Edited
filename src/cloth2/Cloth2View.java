@@ -198,114 +198,114 @@ public class Cloth2View extends FrameView {
         addproduct = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
         jLabel30 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox();
+        cmbgroup = new javax.swing.JComboBox();
         jLabel25 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
+        txtitemid = new javax.swing.JTextField();
+        txtitemname = new javax.swing.JTextField();
         jLabel28 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox();
+        cmgsubgroup = new javax.swing.JComboBox();
         jLabel35 = new javax.swing.JLabel();
-        jComboBox3 = new javax.swing.JComboBox();
+        cmbsize = new javax.swing.JComboBox();
         jLabel31 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
-        jDateChooser2 = new com.toedter.calendar.JDateChooser();
+        txtbrand = new javax.swing.JTextField();
+        itemissue = new com.toedter.calendar.JDateChooser();
         jPanel11 = new javax.swing.JPanel();
         jLabel33 = new javax.swing.JLabel();
-        jTextField4 = new javax.swing.JTextField();
+        txtpurchaseprice = new javax.swing.JTextField();
         jLabel34 = new javax.swing.JLabel();
-        jTextField5 = new javax.swing.JTextField();
+        txtsellingprice = new javax.swing.JTextField();
         jLabel37 = new javax.swing.JLabel();
-        jTextField6 = new javax.swing.JTextField();
+        txtdiscount = new javax.swing.JTextField();
         jPanel12 = new javax.swing.JPanel();
         jLabel32 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        txtdescription = new javax.swing.JTextArea();
         jPanel13 = new javax.swing.JPanel();
-        jButton94 = new javax.swing.JButton();
-        jButton95 = new javax.swing.JButton();
-        jButton96 = new javax.swing.JButton();
-        jButton97 = new javax.swing.JButton();
-        jButton98 = new javax.swing.JButton();
+        btnsavepro = new javax.swing.JButton();
+        btnsearchpro = new javax.swing.JButton();
+        btnupdatepro = new javax.swing.JButton();
+        btnnewpro = new javax.swing.JButton();
+        btndeletepro = new javax.swing.JButton();
         jLabel52 = new javax.swing.JLabel();
         AddSuplier = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel48 = new javax.swing.JLabel();
         jLabel49 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
-        jTextField15 = new javax.swing.JTextField();
-        jTextField16 = new javax.swing.JTextField();
-        jTextField17 = new javax.swing.JTextField();
+        txtvsregno = new javax.swing.JTextField();
+        txtvscity = new javax.swing.JTextField();
+        txtsmob = new javax.swing.JTextField();
         jPanel2 = new javax.swing.JPanel();
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
-        jTextField8 = new javax.swing.JTextField();
+        txtsname = new javax.swing.JTextField();
         jLabel42 = new javax.swing.JLabel();
-        jTextField9 = new javax.swing.JTextField();
+        txtsid = new javax.swing.JTextField();
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jLabel45 = new javax.swing.JLabel();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField11 = new javax.swing.JTextField();
-        jTextField12 = new javax.swing.JTextField();
+        txtsbranch = new javax.swing.JTextField();
+        txtscity = new javax.swing.JTextField();
+        txtscontactper = new javax.swing.JTextField();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextArea2 = new javax.swing.JTextArea();
+        txtsaddress = new javax.swing.JTextArea();
         jLabel46 = new javax.swing.JLabel();
-        jTextField13 = new javax.swing.JTextField();
+        txtsbrand = new javax.swing.JTextField();
         jLabel47 = new javax.swing.JLabel();
-        jTextField14 = new javax.swing.JTextField();
+        txtssubbrand = new javax.swing.JTextField();
         jPanel33 = new javax.swing.JPanel();
-        jButton99 = new javax.swing.JButton();
-        jButton101 = new javax.swing.JButton();
-        jButton102 = new javax.swing.JButton();
-        jButton103 = new javax.swing.JButton();
-        jButton107 = new javax.swing.JButton();
+        btnsupsave = new javax.swing.JButton();
+        btnsupsearch = new javax.swing.JButton();
+        btnsupupdate = new javax.swing.JButton();
+        btnsupnew = new javax.swing.JButton();
+        btnsupdelete = new javax.swing.JButton();
         jLabel51 = new javax.swing.JLabel();
         SubmiteOrder = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
         jLabel87 = new javax.swing.JLabel();
         jLabel100 = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
-        jTextField38 = new javax.swing.JTextField();
+        txtsupadress = new javax.swing.JTextArea();
+        txtsupid = new javax.swing.JTextField();
         jLabel104 = new javax.swing.JLabel();
-        jTextField39 = new javax.swing.JTextField();
+        txtsupname = new javax.swing.JTextField();
         jPanel26 = new javax.swing.JPanel();
         jLabel105 = new javax.swing.JLabel();
         jLabel106 = new javax.swing.JLabel();
-        jTextField50 = new javax.swing.JTextField();
-        jTextField51 = new javax.swing.JTextField();
+        txtordid = new javax.swing.JTextField();
+        txtordname = new javax.swing.JTextField();
         jLabel107 = new javax.swing.JLabel();
         jLabel108 = new javax.swing.JLabel();
         jTextField52 = new javax.swing.JTextField();
-        jTextField53 = new javax.swing.JTextField();
+        txtordsubtotal = new javax.swing.JTextField();
         jLabel109 = new javax.swing.JLabel();
-        jTextField54 = new javax.swing.JTextField();
+        txtordquantity = new javax.swing.JTextField();
         jLabel110 = new javax.swing.JLabel();
-        jTextField55 = new javax.swing.JTextField();
+        txtordtotal = new javax.swing.JTextField();
         jPanel27 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
-        jButton82 = new javax.swing.JButton();
-        jButton80 = new javax.swing.JButton();
-        jButton81 = new javax.swing.JButton();
-        jButton50 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
+        btnordadd = new javax.swing.JButton();
+        btnordedit = new javax.swing.JButton();
+        btnorddelete = new javax.swing.JButton();
+        btnordsubmit = new javax.swing.JButton();
+        btnordprint = new javax.swing.JButton();
         jLabel79 = new javax.swing.JLabel();
         DisplayOrderDetails = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
-        jComboBox5 = new javax.swing.JComboBox();
-        jComboBox6 = new javax.swing.JComboBox();
-        jComboBox7 = new javax.swing.JComboBox();
+        cmborderby = new javax.swing.JComboBox();
+        cmbordmonth1 = new javax.swing.JComboBox();
+        cmbordmonth2 = new javax.swing.JComboBox();
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
-        jTextField43 = new javax.swing.JTextField();
-        jTextField42 = new javax.swing.JTextField();
-        jButton54 = new javax.swing.JButton();
-        jButton49 = new javax.swing.JButton();
+        txtordsupname = new javax.swing.JTextField();
+        txtordsupid = new javax.swing.JTextField();
+        btnorddisplay = new javax.swing.JButton();
+        btnprintorder = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel86 = new javax.swing.JLabel();
         AddTransport = new javax.swing.JPanel();
@@ -313,25 +313,25 @@ public class Cloth2View extends FrameView {
         jLabel61 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
-        jTextField18 = new javax.swing.JTextField();
-        jTextField23 = new javax.swing.JTextField();
-        jTextField24 = new javax.swing.JTextField();
+        txtdrivename = new javax.swing.JTextField();
+        txtdriveroute = new javax.swing.JTextField();
+        txtdrivemob = new javax.swing.JTextField();
         jPanel18 = new javax.swing.JPanel();
         jLabel78 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
-        jTextField25 = new javax.swing.JTextField();
+        txttransname = new javax.swing.JTextField();
         jLabel81 = new javax.swing.JLabel();
-        jTextField34 = new javax.swing.JTextField();
+        txttransid = new javax.swing.JTextField();
         jLabel82 = new javax.swing.JLabel();
         jLabel83 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
-        jTextField35 = new javax.swing.JTextField();
-        jTextField36 = new javax.swing.JTextField();
-        jTextField37 = new javax.swing.JTextField();
+        txttransbranch = new javax.swing.JTextField();
+        txttranscity = new javax.swing.JTextField();
+        txttransmanager = new javax.swing.JTextField();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        txttransaddress = new javax.swing.JTextArea();
         jLabel99 = new javax.swing.JLabel();
-        jTextField46 = new javax.swing.JTextField();
+        txttransmob = new javax.swing.JTextField();
         jPanel20 = new javax.swing.JPanel();
         jLabel88 = new javax.swing.JLabel();
         jLabel89 = new javax.swing.JLabel();
@@ -346,11 +346,11 @@ public class Cloth2View extends FrameView {
         jTextField45 = new javax.swing.JTextField();
         jTextField47 = new javax.swing.JTextField();
         jPanel62 = new javax.swing.JPanel();
-        jButton113 = new javax.swing.JButton();
-        jButton114 = new javax.swing.JButton();
-        jButton115 = new javax.swing.JButton();
-        jButton116 = new javax.swing.JButton();
-        jButton117 = new javax.swing.JButton();
+        btntranssave = new javax.swing.JButton();
+        btntranssearch = new javax.swing.JButton();
+        btntransupdate = new javax.swing.JButton();
+        btntransnew = new javax.swing.JButton();
+        btntransdelete = new javax.swing.JButton();
         jLabel95 = new javax.swing.JLabel();
         Transport = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
@@ -362,13 +362,13 @@ public class Cloth2View extends FrameView {
         DisplayTransportDetails = new javax.swing.JPanel();
         jPanel21 = new javax.swing.JPanel();
         jLabel85 = new javax.swing.JLabel();
-        jComboBox8 = new javax.swing.JComboBox();
+        cmdtransportby = new javax.swing.JComboBox();
         jLabel101 = new javax.swing.JLabel();
         jLabel102 = new javax.swing.JLabel();
-        jTextField48 = new javax.swing.JTextField();
-        jTextField49 = new javax.swing.JTextField();
-        jButton72 = new javax.swing.JButton();
-        jButton48 = new javax.swing.JButton();
+        txttransportname = new javax.swing.JTextField();
+        txttransportid = new javax.swing.JTextField();
+        btntransportdetail = new javax.swing.JButton();
+        btntransdetail = new javax.swing.JButton();
         jPanel23 = new javax.swing.JPanel();
         jLabel103 = new javax.swing.JLabel();
         Deposite = new javax.swing.JPanel();
@@ -406,13 +406,13 @@ public class Cloth2View extends FrameView {
         StockDetails = new javax.swing.JPanel();
         jPanel28 = new javax.swing.JPanel();
         jLabel72 = new javax.swing.JLabel();
-        jComboBox9 = new javax.swing.JComboBox();
+        cmbstockgroup = new javax.swing.JComboBox();
         jLabel114 = new javax.swing.JLabel();
         jLabel115 = new javax.swing.JLabel();
-        jTextField58 = new javax.swing.JTextField();
-        jTextField59 = new javax.swing.JTextField();
-        jButton21 = new javax.swing.JButton();
-        jButton46 = new javax.swing.JButton();
+        txtstocktype = new javax.swing.JTextField();
+        txtstockbrand = new javax.swing.JTextField();
+        btnstocksubmit = new javax.swing.JButton();
+        btnstockprint = new javax.swing.JButton();
         jPanel30 = new javax.swing.JPanel();
         jLabel116 = new javax.swing.JLabel();
         productsetting = new javax.swing.JPanel();
@@ -421,25 +421,25 @@ public class Cloth2View extends FrameView {
         jTabbedPane3 = new javax.swing.JTabbedPane();
         jPanel36 = new javax.swing.JPanel();
         jLabel121 = new javax.swing.JLabel();
-        jComboBox22 = new javax.swing.JComboBox();
+        cmdmainproduct = new javax.swing.JComboBox();
         jLabel125 = new javax.swing.JLabel();
-        jComboBox23 = new javax.swing.JComboBox();
+        cmbsubproduct = new javax.swing.JComboBox();
         jButton69 = new javax.swing.JButton();
         jPanel35 = new javax.swing.JPanel();
         jLabel67 = new javax.swing.JLabel();
         jLabel68 = new javax.swing.JLabel();
-        jComboBox17 = new javax.swing.JComboBox();
-        jTextField76 = new javax.swing.JTextField();
+        cmbmainproduct = new javax.swing.JComboBox();
+        txtsubproduct = new javax.swing.JTextField();
         jButton67 = new javax.swing.JButton();
         jPanel44 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel5 = new javax.swing.JPanel();
         jLabel152 = new javax.swing.JLabel();
-        jTextField75 = new javax.swing.JTextField();
+        txtaddproduct = new javax.swing.JTextField();
         jButton66 = new javax.swing.JButton();
         jPanel31 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
-        jComboBox12 = new javax.swing.JComboBox();
+        cmbremoveproduct = new javax.swing.JComboBox();
         jButton68 = new javax.swing.JButton();
         jLabel153 = new javax.swing.JLabel();
         jLabel154 = new javax.swing.JLabel();
@@ -449,32 +449,32 @@ public class Cloth2View extends FrameView {
         jPanel17 = new javax.swing.JPanel();
         jLabel157 = new javax.swing.JLabel();
         jScrollPane8 = new javax.swing.JScrollPane();
-        jTextArea8 = new javax.swing.JTextArea();
+        txtcaddress = new javax.swing.JTextArea();
         jLabel158 = new javax.swing.JLabel();
         jLabel159 = new javax.swing.JLabel();
-        jTextField27 = new javax.swing.JTextField();
-        jTextField29 = new javax.swing.JTextField();
+        txtccity = new javax.swing.JTextField();
+        txtcpin = new javax.swing.JTextField();
         jLabel160 = new javax.swing.JLabel();
-        jTextField77 = new javax.swing.JTextField();
+        txtcmob = new javax.swing.JTextField();
         jLabel57 = new javax.swing.JLabel();
-        jDateChooser5 = new com.toedter.calendar.JDateChooser();
+        txtcdate = new com.toedter.calendar.JDateChooser();
         jPanel46 = new javax.swing.JPanel();
         jLabel161 = new javax.swing.JLabel();
         jLabel162 = new javax.swing.JLabel();
         jLabel69 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
-        jTextField78 = new javax.swing.JTextField();
-        jTextField26 = new javax.swing.JTextField();
-        jTextField28 = new javax.swing.JTextField();
-        jComboBox18 = new javax.swing.JComboBox();
-        jComboBox19 = new javax.swing.JComboBox();
+        txtcustid = new javax.swing.JTextField();
+        txtcfirstname = new javax.swing.JTextField();
+        txtclastname = new javax.swing.JTextField();
+        cmbcsex = new javax.swing.JComboBox();
+        cmbcsalution = new javax.swing.JComboBox();
         jPanel45 = new javax.swing.JPanel();
-        jButton108 = new javax.swing.JButton();
-        jButton109 = new javax.swing.JButton();
-        jButton110 = new javax.swing.JButton();
-        jButton111 = new javax.swing.JButton();
-        jButton112 = new javax.swing.JButton();
+        btnsavecust = new javax.swing.JButton();
+        btnsearchcust = new javax.swing.JButton();
+        btnupdatecust = new javax.swing.JButton();
+        btnnewcust = new javax.swing.JButton();
+        btndeletecust = new javax.swing.JButton();
         jLabel163 = new javax.swing.JLabel();
         Customerdetail = new javax.swing.JPanel();
         jPanel47 = new javax.swing.JPanel();
@@ -518,36 +518,34 @@ public class Cloth2View extends FrameView {
         jLabel173 = new javax.swing.JLabel();
         jLabel174 = new javax.swing.JLabel();
         jLabel175 = new javax.swing.JLabel();
-        jTextField82 = new javax.swing.JTextField();
-        jTextField83 = new javax.swing.JTextField();
-        jTextField84 = new javax.swing.JTextField();
-        jComboBox21 = new javax.swing.JComboBox();
-        jComboBox10 = new javax.swing.JComboBox();
+        txteid = new javax.swing.JTextField();
+        txtefirstname = new javax.swing.JTextField();
+        txtelastname = new javax.swing.JTextField();
+        cmbesex = new javax.swing.JComboBox();
+        cmbesalution = new javax.swing.JComboBox();
         jPanel51 = new javax.swing.JPanel();
         jLabel176 = new javax.swing.JLabel();
         jLabel177 = new javax.swing.JLabel();
-        jTextField86 = new javax.swing.JTextField();
+        txteshift = new javax.swing.JTextField();
         jLabel178 = new javax.swing.JLabel();
-        jTextField87 = new javax.swing.JTextField();
-        jDateChooser4 = new com.toedter.calendar.JDateChooser();
+        txtesalary = new javax.swing.JTextField();
+        txtejoin = new com.toedter.calendar.JDateChooser();
         jPanel52 = new javax.swing.JPanel();
-        jButton51 = new javax.swing.JButton();
-        jButton76 = new javax.swing.JButton();
-        jButton52 = new javax.swing.JButton();
-        jButton53 = new javax.swing.JButton();
-        jButton58 = new javax.swing.JButton();
-        jButton59 = new javax.swing.JButton();
-        jButton64 = new javax.swing.JButton();
+        btnsaveemp = new javax.swing.JButton();
+        btnsearchemp = new javax.swing.JButton();
+        btndeleteemp = new javax.swing.JButton();
+        btnupdateemp = new javax.swing.JButton();
+        btnnewemp = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
-        jTextField19 = new javax.swing.JTextField();
-        jTextField20 = new javax.swing.JTextField();
-        jTextField21 = new javax.swing.JTextField();
+        txtecity = new javax.swing.JTextField();
+        txtemob = new javax.swing.JTextField();
+        txtepin = new javax.swing.JTextField();
         jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea6 = new javax.swing.JTextArea();
+        txteaddress = new javax.swing.JTextArea();
         jLabel179 = new javax.swing.JLabel();
         empattendance = new javax.swing.JPanel();
         jPanel29 = new javax.swing.JPanel();
@@ -555,11 +553,11 @@ public class Cloth2View extends FrameView {
         jTextArea9 = new javax.swing.JTextArea();
         jPanel53 = new javax.swing.JPanel();
         jLabel180 = new javax.swing.JLabel();
-        jComboBox11 = new javax.swing.JComboBox();
+        cmbemplist = new javax.swing.JComboBox();
         jPanel37 = new javax.swing.JPanel();
-        jButton56 = new javax.swing.JButton();
-        jButton55 = new javax.swing.JButton();
-        jButton57 = new javax.swing.JButton();
+        btnempsubmit = new javax.swing.JButton();
+        btnempadd = new javax.swing.JButton();
+        btnempremove = new javax.swing.JButton();
         jLabel181 = new javax.swing.JLabel();
         jLabel182 = new javax.swing.JLabel();
         employee = new javax.swing.JPanel();
@@ -1124,13 +1122,13 @@ public class Cloth2View extends FrameView {
         jLabel30.setText(resourceMap.getString("jLabel30.text")); // NOI18N
         jLabel30.setName("jLabel30"); // NOI18N
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mens", "Girls", "Saree", "Hosiery", "Cloth", "LadiesSchool", "Handlooms", "Pendings", "Others" }));
-        jComboBox1.setToolTipText(resourceMap.getString("itemgroup.toolTipText")); // NOI18N
-        jComboBox1.setKeySelectionManager(null);
-        jComboBox1.setName("itemgroup"); // NOI18N
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+        cmbgroup.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mens", "Girls", "Saree", "Hosiery", "Cloth", "LadiesSchool", "Handlooms", "Pendings", "Others" }));
+        cmbgroup.setToolTipText(resourceMap.getString("itemgroup.toolTipText")); // NOI18N
+        cmbgroup.setKeySelectionManager(null);
+        cmbgroup.setName("itemgroup"); // NOI18N
+        cmbgroup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+                cmbgroupActionPerformed(evt);
             }
         });
 
@@ -1142,11 +1140,11 @@ public class Cloth2View extends FrameView {
         jLabel29.setText(resourceMap.getString("jLabel29.text")); // NOI18N
         jLabel29.setName("jLabel29"); // NOI18N
 
-        jTextField1.setText(resourceMap.getString("jTextField1.text")); // NOI18N
-        jTextField1.setName("jTextField1"); // NOI18N
+        txtitemid.setText(resourceMap.getString("txtitemid.text")); // NOI18N
+        txtitemid.setName("txtitemid"); // NOI18N
 
-        jTextField2.setText(resourceMap.getString("jTextField2.text")); // NOI18N
-        jTextField2.setName("jTextField2"); // NOI18N
+        txtitemname.setText(resourceMap.getString("txtitemname.text")); // NOI18N
+        txtitemname.setName("txtitemname"); // NOI18N
 
         jLabel28.setFont(resourceMap.getFont("jLabel37.font")); // NOI18N
         jLabel28.setText(resourceMap.getString("jLabel28.text")); // NOI18N
@@ -1156,10 +1154,10 @@ public class Cloth2View extends FrameView {
         jLabel36.setText(resourceMap.getString("jLabel36.text")); // NOI18N
         jLabel36.setName("jLabel36"); // NOI18N
 
-        jComboBox2.setName("jComboBox2"); // NOI18N
-        jComboBox2.addFocusListener(new java.awt.event.FocusAdapter() {
+        cmgsubgroup.setName("cmgsubgroup"); // NOI18N
+        cmgsubgroup.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                jComboBox2FocusGained(evt);
+                cmgsubgroupFocusGained(evt);
             }
         });
 
@@ -1167,10 +1165,10 @@ public class Cloth2View extends FrameView {
         jLabel35.setText(resourceMap.getString("jLabel35.text")); // NOI18N
         jLabel35.setName("jLabel35"); // NOI18N
 
-        jComboBox3.setName("item"); // NOI18N
-        jComboBox3.addFocusListener(new java.awt.event.FocusAdapter() {
+        cmbsize.setName("item"); // NOI18N
+        cmbsize.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
-                jComboBox3FocusGained(evt);
+                cmbsizeFocusGained(evt);
             }
         });
 
@@ -1178,10 +1176,10 @@ public class Cloth2View extends FrameView {
         jLabel31.setText(resourceMap.getString("jLabel31.text")); // NOI18N
         jLabel31.setName("jLabel31"); // NOI18N
 
-        jTextField3.setText(resourceMap.getString("jTextField3.text")); // NOI18N
-        jTextField3.setName("jTextField3"); // NOI18N
+        txtbrand.setText(resourceMap.getString("txtbrand.text")); // NOI18N
+        txtbrand.setName("txtbrand"); // NOI18N
 
-        jDateChooser2.setName("jDateChooser2"); // NOI18N
+        itemissue.setName("itemissue"); // NOI18N
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -1195,9 +1193,9 @@ public class Cloth2View extends FrameView {
                     .addComponent(jLabel31))
                 .addGap(28, 28, 28)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtitemid, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtbrand, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbgroup, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
@@ -1207,16 +1205,16 @@ public class Cloth2View extends FrameView {
                         .addComponent(jLabel36)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTextField2)
-                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtitemname)
+                    .addComponent(cmgsubgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel28)
                     .addComponent(jLabel35))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbsize, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(itemissue, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel10Layout.setVerticalGroup(
@@ -1229,10 +1227,10 @@ public class Cloth2View extends FrameView {
                             .addGroup(jPanel10Layout.createSequentialGroup()
                                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jLabel25)
-                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(txtitemid, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cmbgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(jLabel30)))
                             .addGroup(jPanel10Layout.createSequentialGroup()
                                 .addGap(8, 8, 8)
@@ -1240,18 +1238,18 @@ public class Cloth2View extends FrameView {
                         .addGap(13, 13, 13)
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel31)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txtbrand, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(txtitemname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel28))
-                            .addComponent(jDateChooser2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(itemissue, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(13, 13, 13)
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cmgsubgroup, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel35)
-                            .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cmbsize, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel36))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -1266,22 +1264,22 @@ public class Cloth2View extends FrameView {
         jLabel33.setText(resourceMap.getString("jLabel33.text")); // NOI18N
         jLabel33.setName("jLabel33"); // NOI18N
 
-        jTextField4.setText(resourceMap.getString("jTextField4.text")); // NOI18N
-        jTextField4.setName("jTextField4"); // NOI18N
+        txtpurchaseprice.setText(resourceMap.getString("txtpurchaseprice.text")); // NOI18N
+        txtpurchaseprice.setName("txtpurchaseprice"); // NOI18N
 
         jLabel34.setFont(resourceMap.getFont("jLabel37.font")); // NOI18N
         jLabel34.setText(resourceMap.getString("jLabel34.text")); // NOI18N
         jLabel34.setName("jLabel34"); // NOI18N
 
-        jTextField5.setText(resourceMap.getString("jTextField5.text")); // NOI18N
-        jTextField5.setName("jTextField5"); // NOI18N
+        txtsellingprice.setText(resourceMap.getString("txtsellingprice.text")); // NOI18N
+        txtsellingprice.setName("txtsellingprice"); // NOI18N
 
         jLabel37.setFont(resourceMap.getFont("jLabel37.font")); // NOI18N
         jLabel37.setText(resourceMap.getString("jLabel37.text")); // NOI18N
         jLabel37.setName("jLabel37"); // NOI18N
 
-        jTextField6.setText(resourceMap.getString("jTextField6.text")); // NOI18N
-        jTextField6.setName("jTextField6"); // NOI18N
+        txtdiscount.setText(resourceMap.getString("txtdiscount.text")); // NOI18N
+        txtdiscount.setName("txtdiscount"); // NOI18N
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
@@ -1295,9 +1293,9 @@ public class Cloth2View extends FrameView {
                     .addComponent(jLabel37))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtpurchaseprice, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtsellingprice, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtdiscount, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel11Layout.setVerticalGroup(
@@ -1305,16 +1303,16 @@ public class Cloth2View extends FrameView {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtpurchaseprice, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel33))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField5, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtsellingprice, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel34))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel37)
-                    .addComponent(jTextField6, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtdiscount, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1330,10 +1328,10 @@ public class Cloth2View extends FrameView {
 
         jScrollPane1.setName("jScrollPane1"); // NOI18N
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jTextArea1.setName("jTextArea1"); // NOI18N
-        jScrollPane1.setViewportView(jTextArea1);
+        txtdescription.setColumns(20);
+        txtdescription.setRows(5);
+        txtdescription.setName("txtdescription"); // NOI18N
+        jScrollPane1.setViewportView(txtdescription);
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -1365,28 +1363,28 @@ public class Cloth2View extends FrameView {
         jPanel13.setName("jPanel13"); // NOI18N
         jPanel13.setOpaque(false);
 
-        jButton94.setIcon(resourceMap.getIcon("jButton94.icon")); // NOI18N
-        jButton94.setText(resourceMap.getString("jButton94.text")); // NOI18N
-        jButton94.setName("jButton94"); // NOI18N
+        btnsavepro.setIcon(resourceMap.getIcon("btnsavepro.icon")); // NOI18N
+        btnsavepro.setText(resourceMap.getString("btnsavepro.text")); // NOI18N
+        btnsavepro.setName("btnsavepro"); // NOI18N
 
-        jButton95.setAction(actionMap.get("itemsearch")); // NOI18N
-        jButton95.setIcon(resourceMap.getIcon("jButton95.icon")); // NOI18N
-        jButton95.setText(resourceMap.getString("jButton95.text")); // NOI18N
-        jButton95.setName("jButton95"); // NOI18N
+        btnsearchpro.setAction(actionMap.get("itemsearch")); // NOI18N
+        btnsearchpro.setIcon(resourceMap.getIcon("btnsearchpro.icon")); // NOI18N
+        btnsearchpro.setText(resourceMap.getString("btnsearchpro.text")); // NOI18N
+        btnsearchpro.setName("btnsearchpro"); // NOI18N
 
-        jButton96.setAction(actionMap.get("update")); // NOI18N
-        jButton96.setIcon(resourceMap.getIcon("jButton96.icon")); // NOI18N
-        jButton96.setText(resourceMap.getString("jButton96.text")); // NOI18N
-        jButton96.setName("jButton96"); // NOI18N
+        btnupdatepro.setAction(actionMap.get("update")); // NOI18N
+        btnupdatepro.setIcon(resourceMap.getIcon("btnupdatepro.icon")); // NOI18N
+        btnupdatepro.setText(resourceMap.getString("btnupdatepro.text")); // NOI18N
+        btnupdatepro.setName("btnupdatepro"); // NOI18N
 
-        jButton97.setIcon(resourceMap.getIcon("jButton97.icon")); // NOI18N
-        jButton97.setText(resourceMap.getString("jButton97.text")); // NOI18N
-        jButton97.setName("jButton97"); // NOI18N
+        btnnewpro.setIcon(resourceMap.getIcon("btnnewpro.icon")); // NOI18N
+        btnnewpro.setText(resourceMap.getString("btnnewpro.text")); // NOI18N
+        btnnewpro.setName("btnnewpro"); // NOI18N
 
-        jButton98.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton98.setIcon(resourceMap.getIcon("jButton98.icon")); // NOI18N
-        jButton98.setText(resourceMap.getString("jButton98.text")); // NOI18N
-        jButton98.setName("jButton98"); // NOI18N
+        btndeletepro.setAction(actionMap.get("deleteproduct")); // NOI18N
+        btndeletepro.setIcon(resourceMap.getIcon("btndeletepro.icon")); // NOI18N
+        btndeletepro.setText(resourceMap.getString("btndeletepro.text")); // NOI18N
+        btndeletepro.setName("btndeletepro"); // NOI18N
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -1394,15 +1392,15 @@ public class Cloth2View extends FrameView {
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton97, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnnewpro, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton94, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsavepro, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton95, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsearchpro, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton98, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btndeletepro, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton96, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnupdatepro, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
@@ -1410,11 +1408,11 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton94, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton95, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton96, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton97, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton98, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE))
+                    .addComponent(btnsavepro, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnsearchpro, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnupdatepro, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnnewpro, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btndeletepro, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -1453,20 +1451,20 @@ public class Cloth2View extends FrameView {
         jLabel50.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel50.setName("jLabel50"); // NOI18N
 
-        jTextField15.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField15.setDisabledTextColor(resourceMap.getColor("jTextField15.disabledTextColor")); // NOI18N
-        jTextField15.setName("jTextField15"); // NOI18N
-        jTextField15.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtvsregno.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtvsregno.setDisabledTextColor(resourceMap.getColor("txtvsregno.disabledTextColor")); // NOI18N
+        txtvsregno.setName("txtvsregno"); // NOI18N
+        txtvsregno.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField16.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField16.setDisabledTextColor(resourceMap.getColor("jTextField16.disabledTextColor")); // NOI18N
-        jTextField16.setName("jTextField16"); // NOI18N
-        jTextField16.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtvscity.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtvscity.setDisabledTextColor(resourceMap.getColor("txtvscity.disabledTextColor")); // NOI18N
+        txtvscity.setName("txtvscity"); // NOI18N
+        txtvscity.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField17.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField17.setDisabledTextColor(resourceMap.getColor("jTextField17.disabledTextColor")); // NOI18N
-        jTextField17.setName("jTextField17"); // NOI18N
-        jTextField17.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsmob.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtsmob.setDisabledTextColor(resourceMap.getColor("txtsmob.disabledTextColor")); // NOI18N
+        txtsmob.setName("txtsmob"); // NOI18N
+        txtsmob.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -1482,9 +1480,9 @@ public class Cloth2View extends FrameView {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtsmob, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtvsregno, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtvscity, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(45, 45, 45))
         );
         jPanel3Layout.setVerticalGroup(
@@ -1493,15 +1491,15 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel48, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtvsregno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel49, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtvscity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel50, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsmob, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1524,11 +1522,11 @@ public class Cloth2View extends FrameView {
         jLabel41.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel41.setName("jLabel41"); // NOI18N
 
-        jTextField8.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField8.setDisabledTextColor(resourceMap.getColor("jTextField8.disabledTextColor")); // NOI18N
-        jTextField8.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField8.setName("jTextField8"); // NOI18N
-        jTextField8.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsname.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtsname.setDisabledTextColor(resourceMap.getColor("txtsname.disabledTextColor")); // NOI18N
+        txtsname.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtsname.setName("txtsname"); // NOI18N
+        txtsname.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel42.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
         jLabel42.setText(resourceMap.getString("jLabel42.text")); // NOI18N
@@ -1536,12 +1534,12 @@ public class Cloth2View extends FrameView {
         jLabel42.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel42.setName("jLabel42"); // NOI18N
 
-        jTextField9.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField9.setDisabledTextColor(resourceMap.getColor("jTextField9.disabledTextColor")); // NOI18N
-        jTextField9.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField9.setMinimumSize(new java.awt.Dimension(65, 35));
-        jTextField9.setName("jTextField9"); // NOI18N
-        jTextField9.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsid.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtsid.setDisabledTextColor(resourceMap.getColor("txtsid.disabledTextColor")); // NOI18N
+        txtsid.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtsid.setMinimumSize(new java.awt.Dimension(65, 35));
+        txtsid.setName("txtsid"); // NOI18N
+        txtsid.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel43.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
         jLabel43.setText(resourceMap.getString("jLabel43.text")); // NOI18N
@@ -1561,31 +1559,31 @@ public class Cloth2View extends FrameView {
         jLabel45.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel45.setName("jLabel45"); // NOI18N
 
-        jTextField10.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField10.setDisabledTextColor(resourceMap.getColor("jTextField10.disabledTextColor")); // NOI18N
-        jTextField10.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField10.setName("jTextField10"); // NOI18N
-        jTextField10.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsbranch.setFont(resourceMap.getFont("txtsbranch.font")); // NOI18N
+        txtsbranch.setDisabledTextColor(resourceMap.getColor("txtsbranch.disabledTextColor")); // NOI18N
+        txtsbranch.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtsbranch.setName("txtsbranch"); // NOI18N
+        txtsbranch.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField11.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField11.setDisabledTextColor(resourceMap.getColor("jTextField11.disabledTextColor")); // NOI18N
-        jTextField11.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField11.setName("jTextField11"); // NOI18N
-        jTextField11.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtscity.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtscity.setDisabledTextColor(resourceMap.getColor("txtscity.disabledTextColor")); // NOI18N
+        txtscity.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtscity.setName("txtscity"); // NOI18N
+        txtscity.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField12.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField12.setDisabledTextColor(resourceMap.getColor("jTextField12.disabledTextColor")); // NOI18N
-        jTextField12.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField12.setName("jTextField12"); // NOI18N
-        jTextField12.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtscontactper.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtscontactper.setDisabledTextColor(resourceMap.getColor("txtscontactper.disabledTextColor")); // NOI18N
+        txtscontactper.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtscontactper.setName("txtscontactper"); // NOI18N
+        txtscontactper.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jScrollPane2.setName("jScrollPane2"); // NOI18N
 
-        jTextArea2.setColumns(20);
-        jTextArea2.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextArea2.setRows(5);
-        jTextArea2.setName("jTextArea2"); // NOI18N
-        jScrollPane2.setViewportView(jTextArea2);
+        txtsaddress.setColumns(20);
+        txtsaddress.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtsaddress.setRows(5);
+        txtsaddress.setName("txtsaddress"); // NOI18N
+        jScrollPane2.setViewportView(txtsaddress);
 
         jLabel46.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
         jLabel46.setText(resourceMap.getString("jLabel46.text")); // NOI18N
@@ -1593,11 +1591,11 @@ public class Cloth2View extends FrameView {
         jLabel46.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel46.setName("jLabel46"); // NOI18N
 
-        jTextField13.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField13.setDisabledTextColor(resourceMap.getColor("jTextField13.disabledTextColor")); // NOI18N
-        jTextField13.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField13.setName("jTextField13"); // NOI18N
-        jTextField13.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsbrand.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtsbrand.setDisabledTextColor(resourceMap.getColor("txtsbrand.disabledTextColor")); // NOI18N
+        txtsbrand.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtsbrand.setName("txtsbrand"); // NOI18N
+        txtsbrand.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel47.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
         jLabel47.setText(resourceMap.getString("jLabel47.text")); // NOI18N
@@ -1605,11 +1603,11 @@ public class Cloth2View extends FrameView {
         jLabel47.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel47.setName("jLabel47"); // NOI18N
 
-        jTextField14.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField14.setDisabledTextColor(resourceMap.getColor("jTextField14.disabledTextColor")); // NOI18N
-        jTextField14.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField14.setName("jTextField14"); // NOI18N
-        jTextField14.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtssubbrand.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
+        txtssubbrand.setDisabledTextColor(resourceMap.getColor("txtssubbrand.disabledTextColor")); // NOI18N
+        txtssubbrand.setMaximumSize(new java.awt.Dimension(65, 35));
+        txtssubbrand.setName("txtssubbrand"); // NOI18N
+        txtssubbrand.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -1629,8 +1627,8 @@ public class Cloth2View extends FrameView {
                                     .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField8, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                    .addComponent(jTextField9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(txtsname, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                    .addComponent(txtsid, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1641,13 +1639,13 @@ public class Cloth2View extends FrameView {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(txtssubbrand, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                            .addComponent(jTextField10, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                            .addComponent(jTextField13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jTextField12, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                            .addComponent(txtsbranch, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                            .addComponent(txtsbrand, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                        .addComponent(txtscity, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(txtscontactper, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 227, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(18, 18, 18))))
         );
         jPanel2Layout.setVerticalGroup(
@@ -1655,10 +1653,10 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtsname, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel40, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1670,15 +1668,15 @@ public class Cloth2View extends FrameView {
                         .addGap(18, 18, 18)))
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsbranch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtssubbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
@@ -1686,9 +1684,9 @@ public class Cloth2View extends FrameView {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jLabel45, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtscity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(13, 13, 13)
-                        .addComponent(jTextField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtscontactper, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
 
@@ -1698,33 +1696,33 @@ public class Cloth2View extends FrameView {
         jPanel33.setName("jPanel33"); // NOI18N
         jPanel33.setOpaque(false);
 
-        jButton99.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
-        jButton99.setIcon(resourceMap.getIcon("jButton99.icon")); // NOI18N
-        jButton99.setText(resourceMap.getString("jButton99.text")); // NOI18N
-        jButton99.setName("jButton99"); // NOI18N
+        btnsupsave.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        btnsupsave.setIcon(resourceMap.getIcon("btnsupsave.icon")); // NOI18N
+        btnsupsave.setText(resourceMap.getString("btnsupsave.text")); // NOI18N
+        btnsupsave.setName("btnsupsave"); // NOI18N
 
-        jButton101.setAction(actionMap.get("itemsearch")); // NOI18N
-        jButton101.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
-        jButton101.setIcon(resourceMap.getIcon("jButton101.icon")); // NOI18N
-        jButton101.setText(resourceMap.getString("jButton101.text")); // NOI18N
-        jButton101.setName("jButton101"); // NOI18N
+        btnsupsearch.setAction(actionMap.get("itemsearch")); // NOI18N
+        btnsupsearch.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        btnsupsearch.setIcon(resourceMap.getIcon("btnsupsearch.icon")); // NOI18N
+        btnsupsearch.setText(resourceMap.getString("btnsupsearch.text")); // NOI18N
+        btnsupsearch.setName("btnsupsearch"); // NOI18N
 
-        jButton102.setAction(actionMap.get("update")); // NOI18N
-        jButton102.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
-        jButton102.setIcon(resourceMap.getIcon("jButton102.icon")); // NOI18N
-        jButton102.setText(resourceMap.getString("jButton102.text")); // NOI18N
-        jButton102.setName("jButton102"); // NOI18N
+        btnsupupdate.setAction(actionMap.get("update")); // NOI18N
+        btnsupupdate.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        btnsupupdate.setIcon(resourceMap.getIcon("btnsupupdate.icon")); // NOI18N
+        btnsupupdate.setText(resourceMap.getString("btnsupupdate.text")); // NOI18N
+        btnsupupdate.setName("btnsupupdate"); // NOI18N
 
-        jButton103.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
-        jButton103.setIcon(resourceMap.getIcon("jButton103.icon")); // NOI18N
-        jButton103.setText(resourceMap.getString("jButton103.text")); // NOI18N
-        jButton103.setName("jButton103"); // NOI18N
+        btnsupnew.setFont(resourceMap.getFont("btnsupnew.font")); // NOI18N
+        btnsupnew.setIcon(resourceMap.getIcon("btnsupnew.icon")); // NOI18N
+        btnsupnew.setText(resourceMap.getString("btnsupnew.text")); // NOI18N
+        btnsupnew.setName("btnsupnew"); // NOI18N
 
-        jButton107.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton107.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
-        jButton107.setIcon(resourceMap.getIcon("jButton107.icon")); // NOI18N
-        jButton107.setText(resourceMap.getString("jButton107.text")); // NOI18N
-        jButton107.setName("jButton107"); // NOI18N
+        btnsupdelete.setAction(actionMap.get("deleteproduct")); // NOI18N
+        btnsupdelete.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        btnsupdelete.setIcon(resourceMap.getIcon("btnsupdelete.icon")); // NOI18N
+        btnsupdelete.setText(resourceMap.getString("btnsupdelete.text")); // NOI18N
+        btnsupdelete.setName("btnsupdelete"); // NOI18N
 
         javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
         jPanel33.setLayout(jPanel33Layout);
@@ -1732,15 +1730,15 @@ public class Cloth2View extends FrameView {
             jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel33Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton103, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsupnew, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton99, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsupsave, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton101, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsupsearch, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton107, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsupdelete, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton102, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsupupdate, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel33Layout.setVerticalGroup(
@@ -1748,11 +1746,11 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel33Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton99, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton101, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton102, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton103, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton107, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
+                    .addComponent(btnsupsave, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btnsupsearch, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btnsupupdate, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btnsupnew, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btnsupdelete, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -1787,15 +1785,15 @@ public class Cloth2View extends FrameView {
 
         jScrollPane5.setName("jScrollPane5"); // NOI18N
 
-        jTextArea5.setColumns(20);
-        jTextArea5.setRows(5);
-        jTextArea5.setName("jTextArea5"); // NOI18N
-        jScrollPane5.setViewportView(jTextArea5);
+        txtsupadress.setColumns(20);
+        txtsupadress.setRows(5);
+        txtsupadress.setName("txtsupadress"); // NOI18N
+        jScrollPane5.setViewportView(txtsupadress);
 
-        jTextField38.setFont(resourceMap.getFont("jTextField38.font")); // NOI18N
-        jTextField38.setDisabledTextColor(resourceMap.getColor("jTextField38.disabledTextColor")); // NOI18N
-        jTextField38.setName("jTextField38"); // NOI18N
-        jTextField38.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsupid.setFont(resourceMap.getFont("txtsupid.font")); // NOI18N
+        txtsupid.setDisabledTextColor(resourceMap.getColor("txtsupid.disabledTextColor")); // NOI18N
+        txtsupid.setName("txtsupid"); // NOI18N
+        txtsupid.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel104.setFont(resourceMap.getFont("jLabel108.font")); // NOI18N
         jLabel104.setText(resourceMap.getString("jLabel104.text")); // NOI18N
@@ -1803,10 +1801,10 @@ public class Cloth2View extends FrameView {
         jLabel104.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel104.setName("jLabel104"); // NOI18N
 
-        jTextField39.setFont(resourceMap.getFont("jTextField39.font")); // NOI18N
-        jTextField39.setDisabledTextColor(resourceMap.getColor("jTextField39.disabledTextColor")); // NOI18N
-        jTextField39.setName("jTextField39"); // NOI18N
-        jTextField39.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtsupname.setFont(resourceMap.getFont("txtsupname.font")); // NOI18N
+        txtsupname.setDisabledTextColor(resourceMap.getColor("txtsupname.disabledTextColor")); // NOI18N
+        txtsupname.setName("txtsupname"); // NOI18N
+        txtsupname.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
         jPanel25.setLayout(jPanel25Layout);
@@ -1824,8 +1822,8 @@ public class Cloth2View extends FrameView {
                         .addComponent(jLabel100, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jTextField38, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextField39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtsupid, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtsupname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
@@ -1835,14 +1833,14 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel104, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsupid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addComponent(jLabel87, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtsupname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(jPanel25Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel25Layout.createSequentialGroup()
                         .addGap(36, 36, 36)
@@ -1871,15 +1869,15 @@ public class Cloth2View extends FrameView {
         jLabel106.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel106.setName("jLabel106"); // NOI18N
 
-        jTextField50.setFont(resourceMap.getFont("jTextField50.font")); // NOI18N
-        jTextField50.setDisabledTextColor(resourceMap.getColor("jTextField50.disabledTextColor")); // NOI18N
-        jTextField50.setName("jTextField50"); // NOI18N
-        jTextField50.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordid.setFont(resourceMap.getFont("txtordid.font")); // NOI18N
+        txtordid.setDisabledTextColor(resourceMap.getColor("txtordid.disabledTextColor")); // NOI18N
+        txtordid.setName("txtordid"); // NOI18N
+        txtordid.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField51.setFont(resourceMap.getFont("jTextField51.font")); // NOI18N
-        jTextField51.setDisabledTextColor(resourceMap.getColor("jTextField51.disabledTextColor")); // NOI18N
-        jTextField51.setName("jTextField51"); // NOI18N
-        jTextField51.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordname.setFont(resourceMap.getFont("txtordname.font")); // NOI18N
+        txtordname.setDisabledTextColor(resourceMap.getColor("txtordname.disabledTextColor")); // NOI18N
+        txtordname.setName("txtordname"); // NOI18N
+        txtordname.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel107.setFont(resourceMap.getFont("jLabel108.font")); // NOI18N
         jLabel107.setText(resourceMap.getString("jLabel107.text")); // NOI18N
@@ -1898,10 +1896,10 @@ public class Cloth2View extends FrameView {
         jTextField52.setName("jTextField52"); // NOI18N
         jTextField52.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField53.setFont(resourceMap.getFont("jTextField53.font")); // NOI18N
-        jTextField53.setDisabledTextColor(resourceMap.getColor("jTextField53.disabledTextColor")); // NOI18N
-        jTextField53.setName("jTextField53"); // NOI18N
-        jTextField53.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordsubtotal.setFont(resourceMap.getFont("txtordsubtotal.font")); // NOI18N
+        txtordsubtotal.setDisabledTextColor(resourceMap.getColor("txtordsubtotal.disabledTextColor")); // NOI18N
+        txtordsubtotal.setName("txtordsubtotal"); // NOI18N
+        txtordsubtotal.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel109.setFont(resourceMap.getFont("jLabel108.font")); // NOI18N
         jLabel109.setText(resourceMap.getString("jLabel109.text")); // NOI18N
@@ -1909,10 +1907,10 @@ public class Cloth2View extends FrameView {
         jLabel109.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel109.setName("jLabel109"); // NOI18N
 
-        jTextField54.setFont(resourceMap.getFont("jTextField54.font")); // NOI18N
-        jTextField54.setDisabledTextColor(resourceMap.getColor("jTextField54.disabledTextColor")); // NOI18N
-        jTextField54.setName("jTextField54"); // NOI18N
-        jTextField54.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordquantity.setFont(resourceMap.getFont("txtordquantity.font")); // NOI18N
+        txtordquantity.setDisabledTextColor(resourceMap.getColor("txtordquantity.disabledTextColor")); // NOI18N
+        txtordquantity.setName("txtordquantity"); // NOI18N
+        txtordquantity.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel110.setFont(resourceMap.getFont("jLabel108.font")); // NOI18N
         jLabel110.setText(resourceMap.getString("jLabel110.text")); // NOI18N
@@ -1920,10 +1918,10 @@ public class Cloth2View extends FrameView {
         jLabel110.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel110.setName("jLabel110"); // NOI18N
 
-        jTextField55.setFont(resourceMap.getFont("jTextField55.font")); // NOI18N
-        jTextField55.setDisabledTextColor(resourceMap.getColor("jTextField55.disabledTextColor")); // NOI18N
-        jTextField55.setName("jTextField55"); // NOI18N
-        jTextField55.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordtotal.setFont(resourceMap.getFont("txtordtotal.font")); // NOI18N
+        txtordtotal.setDisabledTextColor(resourceMap.getColor("txtordtotal.disabledTextColor")); // NOI18N
+        txtordtotal.setName("txtordtotal"); // NOI18N
+        txtordtotal.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
         jPanel26.setLayout(jPanel26Layout);
@@ -1932,40 +1930,42 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel26Layout.createSequentialGroup()
                 .addGap(32, 32, 32)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel26Layout.createSequentialGroup()
+                            .addGap(2, 2, 2)
+                            .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jLabel106, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel105, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel107, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE)
+                                .addComponent(jLabel109, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addComponent(jLabel108, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(34, 34, 34)
+                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel26Layout.createSequentialGroup()
                         .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel26Layout.createSequentialGroup()
-                                .addGap(2, 2, 2)
-                                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jLabel106, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(jLabel105, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel107, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE)
-                                    .addComponent(jLabel109, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addComponent(jLabel108, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(43, 43, 43)
-                        .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jTextField52, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField53, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField50, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField55, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField51, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField54, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(txtordsubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtordid, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtordname, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtordquantity, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(txtordtotal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel26Layout.setVerticalGroup(
             jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel26Layout.createSequentialGroup()
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel105, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField50, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtordid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(10, 10, 10)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel106, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtordname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtordquantity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel107, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1973,13 +1973,12 @@ public class Cloth2View extends FrameView {
                     .addComponent(jTextField52, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(11, 11, 11)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtordsubtotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel108, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel26Layout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTextField55, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtordtotal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -2006,42 +2005,42 @@ public class Cloth2View extends FrameView {
         jPanel1.setPreferredSize(new java.awt.Dimension(50, 40));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton82.setFont(resourceMap.getFont("jButton82.font")); // NOI18N
-        jButton82.setIcon(resourceMap.getIcon("jButton82.icon")); // NOI18N
-        jButton82.setText(resourceMap.getString("jButton82.text")); // NOI18N
-        jButton82.setName("jButton82"); // NOI18N
-        jButton82.setPreferredSize(new java.awt.Dimension(50, 40));
-        jPanel1.add(jButton82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, -1));
+        btnordadd.setFont(resourceMap.getFont("btnordadd.font")); // NOI18N
+        btnordadd.setIcon(resourceMap.getIcon("btnordadd.icon")); // NOI18N
+        btnordadd.setText(resourceMap.getString("btnordadd.text")); // NOI18N
+        btnordadd.setName("btnordadd"); // NOI18N
+        btnordadd.setPreferredSize(new java.awt.Dimension(50, 40));
+        jPanel1.add(btnordadd, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, -1));
 
-        jButton80.setFont(resourceMap.getFont("jButton80.font")); // NOI18N
-        jButton80.setIcon(resourceMap.getIcon("jButton80.icon")); // NOI18N
-        jButton80.setText(resourceMap.getString("jButton80.text")); // NOI18N
-        jButton80.setName("jButton80"); // NOI18N
-        jButton80.setPreferredSize(new java.awt.Dimension(50, 40));
-        jPanel1.add(jButton80, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 140, -1));
+        btnordedit.setFont(resourceMap.getFont("btnordedit.font")); // NOI18N
+        btnordedit.setIcon(resourceMap.getIcon("btnordedit.icon")); // NOI18N
+        btnordedit.setText(resourceMap.getString("btnordedit.text")); // NOI18N
+        btnordedit.setName("btnordedit"); // NOI18N
+        btnordedit.setPreferredSize(new java.awt.Dimension(50, 40));
+        jPanel1.add(btnordedit, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 140, -1));
 
-        jButton81.setFont(resourceMap.getFont("jButton81.font")); // NOI18N
-        jButton81.setIcon(resourceMap.getIcon("jButton81.icon")); // NOI18N
-        jButton81.setText(resourceMap.getString("jButton81.text")); // NOI18N
-        jButton81.setName("jButton81"); // NOI18N
-        jButton81.setPreferredSize(new java.awt.Dimension(50, 40));
-        jPanel1.add(jButton81, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 140, -1));
+        btnorddelete.setFont(resourceMap.getFont("btnorddelete.font")); // NOI18N
+        btnorddelete.setIcon(resourceMap.getIcon("btnorddelete.icon")); // NOI18N
+        btnorddelete.setText(resourceMap.getString("btnorddelete.text")); // NOI18N
+        btnorddelete.setName("btnorddelete"); // NOI18N
+        btnorddelete.setPreferredSize(new java.awt.Dimension(50, 40));
+        jPanel1.add(btnorddelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 140, -1));
 
-        jButton50.setFont(resourceMap.getFont("jButton50.font")); // NOI18N
-        jButton50.setIcon(resourceMap.getIcon("jButton50.icon")); // NOI18N
-        jButton50.setText(resourceMap.getString("jButton50.text")); // NOI18N
-        jButton50.setName("jButton50"); // NOI18N
-        jButton50.setPreferredSize(new java.awt.Dimension(50, 40));
-        jPanel1.add(jButton50, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 140, -1));
+        btnordsubmit.setFont(resourceMap.getFont("btnordsubmit.font")); // NOI18N
+        btnordsubmit.setIcon(resourceMap.getIcon("btnordsubmit.icon")); // NOI18N
+        btnordsubmit.setText(resourceMap.getString("btnordsubmit.text")); // NOI18N
+        btnordsubmit.setName("btnordsubmit"); // NOI18N
+        btnordsubmit.setPreferredSize(new java.awt.Dimension(50, 40));
+        jPanel1.add(btnordsubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 140, -1));
 
         SubmiteOrder.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 20, 160, 250));
 
-        jButton22.setFont(resourceMap.getFont("jButton22.font")); // NOI18N
-        jButton22.setIcon(resourceMap.getIcon("jButton22.icon")); // NOI18N
-        jButton22.setText(resourceMap.getString("jButton22.text")); // NOI18N
-        jButton22.setName("jButton22"); // NOI18N
-        jButton22.setPreferredSize(new java.awt.Dimension(50, 40));
-        SubmiteOrder.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 480, 140, -1));
+        btnordprint.setFont(resourceMap.getFont("btnordprint.font")); // NOI18N
+        btnordprint.setIcon(resourceMap.getIcon("btnordprint.icon")); // NOI18N
+        btnordprint.setText(resourceMap.getString("btnordprint.text")); // NOI18N
+        btnordprint.setName("btnordprint"); // NOI18N
+        btnordprint.setPreferredSize(new java.awt.Dimension(50, 40));
+        SubmiteOrder.add(btnordprint, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 480, 140, -1));
 
         jLabel79.setIcon(resourceMap.getIcon("jLabel79.icon")); // NOI18N
         jLabel79.setName("jLabel79"); // NOI18N
@@ -2075,17 +2074,17 @@ public class Cloth2View extends FrameView {
         jLabel75.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel75.setName("jLabel75"); // NOI18N
 
-        jComboBox5.setFont(resourceMap.getFont("jComboBox6.font")); // NOI18N
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Date ", "Month", "Suplier Name" }));
-        jComboBox5.setName("jComboBox5"); // NOI18N
+        cmborderby.setFont(resourceMap.getFont("jComboBox6.font")); // NOI18N
+        cmborderby.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Date ", "Month", "Suplier Name" }));
+        cmborderby.setName("cmborderby"); // NOI18N
 
-        jComboBox6.setFont(resourceMap.getFont("jComboBox6.font")); // NOI18N
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" }));
-        jComboBox6.setName("jComboBox6"); // NOI18N
+        cmbordmonth1.setFont(resourceMap.getFont("cmbordmonth1.font")); // NOI18N
+        cmbordmonth1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" }));
+        cmbordmonth1.setName("cmbordmonth1"); // NOI18N
 
-        jComboBox7.setFont(resourceMap.getFont("jComboBox6.font")); // NOI18N
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" }));
-        jComboBox7.setName("jComboBox7"); // NOI18N
+        cmbordmonth2.setFont(resourceMap.getFont("jComboBox6.font")); // NOI18N
+        cmbordmonth2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC" }));
+        cmbordmonth2.setName("cmbordmonth2"); // NOI18N
 
         jLabel76.setFont(resourceMap.getFont("jLabel64.font")); // NOI18N
         jLabel76.setText(resourceMap.getString("jLabel76.text")); // NOI18N
@@ -2099,26 +2098,26 @@ public class Cloth2View extends FrameView {
         jLabel77.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel77.setName("jLabel77"); // NOI18N
 
-        jTextField43.setFont(resourceMap.getFont("jTextField43.font")); // NOI18N
-        jTextField43.setDisabledTextColor(resourceMap.getColor("jTextField43.disabledTextColor")); // NOI18N
-        jTextField43.setName("jTextField43"); // NOI18N
-        jTextField43.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordsupname.setFont(resourceMap.getFont("txtordsupname.font")); // NOI18N
+        txtordsupname.setDisabledTextColor(resourceMap.getColor("txtordsupname.disabledTextColor")); // NOI18N
+        txtordsupname.setName("txtordsupname"); // NOI18N
+        txtordsupname.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField42.setFont(resourceMap.getFont("jTextField42.font")); // NOI18N
-        jTextField42.setDisabledTextColor(resourceMap.getColor("jTextField42.disabledTextColor")); // NOI18N
-        jTextField42.setName("jTextField42"); // NOI18N
-        jTextField42.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtordsupid.setFont(resourceMap.getFont("txtordsupid.font")); // NOI18N
+        txtordsupid.setDisabledTextColor(resourceMap.getColor("txtordsupid.disabledTextColor")); // NOI18N
+        txtordsupid.setName("txtordsupid"); // NOI18N
+        txtordsupid.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jButton54.setFont(resourceMap.getFont("jButton49.font")); // NOI18N
-        jButton54.setIcon(resourceMap.getIcon("jButton54.icon")); // NOI18N
-        jButton54.setText(resourceMap.getString("jButton54.text")); // NOI18N
-        jButton54.setName("jButton54"); // NOI18N
-        jButton54.setPreferredSize(new java.awt.Dimension(35, 50));
+        btnorddisplay.setFont(resourceMap.getFont("jButton49.font")); // NOI18N
+        btnorddisplay.setIcon(resourceMap.getIcon("btnorddisplay.icon")); // NOI18N
+        btnorddisplay.setText(resourceMap.getString("btnorddisplay.text")); // NOI18N
+        btnorddisplay.setName("btnorddisplay"); // NOI18N
+        btnorddisplay.setPreferredSize(new java.awt.Dimension(35, 50));
 
-        jButton49.setFont(resourceMap.getFont("jButton49.font")); // NOI18N
-        jButton49.setIcon(resourceMap.getIcon("jButton49.icon")); // NOI18N
-        jButton49.setText(resourceMap.getString("jButton49.text")); // NOI18N
-        jButton49.setName("jButton49"); // NOI18N
+        btnprintorder.setFont(resourceMap.getFont("btnprintorder.font")); // NOI18N
+        btnprintorder.setIcon(resourceMap.getIcon("btnprintorder.icon")); // NOI18N
+        btnprintorder.setText(resourceMap.getString("btnprintorder.text")); // NOI18N
+        btnprintorder.setName("btnprintorder"); // NOI18N
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -2135,14 +2134,14 @@ public class Cloth2View extends FrameView {
                             .addGroup(jPanel6Layout.createSequentialGroup()
                                 .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 58, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, Short.MAX_VALUE)
-                                .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(cmbordmonth1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(120, 120, 120)))
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel6Layout.createSequentialGroup()
                                 .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(cmbordmonth2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(cmborderby, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(132, 132, 132))
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2152,12 +2151,12 @@ public class Cloth2View extends FrameView {
                                     .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(182, 182, 182)
                                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField42, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
-                                    .addComponent(jTextField43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(txtordsupid, javax.swing.GroupLayout.DEFAULT_SIZE, 138, Short.MAX_VALUE)
+                                    .addComponent(txtordsupname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(jPanel6Layout.createSequentialGroup()
-                                .addComponent(jButton54, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btnorddisplay, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(32, 32, 32)
-                                .addComponent(jButton49)))
+                                .addComponent(btnprintorder)))
                         .addGap(0, 0, Short.MAX_VALUE))))
         );
         jPanel6Layout.setVerticalGroup(
@@ -2166,25 +2165,25 @@ public class Cloth2View extends FrameView {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel63, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmborderby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel64, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbordmonth1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbordmonth2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtordsupid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtordsupname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton54, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
-                    .addComponent(jButton49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(btnorddisplay, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
+                    .addComponent(btnprintorder, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -2239,20 +2238,20 @@ public class Cloth2View extends FrameView {
         jLabel65.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel65.setName("jLabel65"); // NOI18N
 
-        jTextField18.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField18.setDisabledTextColor(resourceMap.getColor("jTextField18.disabledTextColor")); // NOI18N
-        jTextField18.setName("jTextField18"); // NOI18N
-        jTextField18.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtdrivename.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txtdrivename.setDisabledTextColor(resourceMap.getColor("txtdrivename.disabledTextColor")); // NOI18N
+        txtdrivename.setName("txtdrivename"); // NOI18N
+        txtdrivename.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField23.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField23.setDisabledTextColor(resourceMap.getColor("jTextField23.disabledTextColor")); // NOI18N
-        jTextField23.setName("jTextField23"); // NOI18N
-        jTextField23.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtdriveroute.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txtdriveroute.setDisabledTextColor(resourceMap.getColor("txtdriveroute.disabledTextColor")); // NOI18N
+        txtdriveroute.setName("txtdriveroute"); // NOI18N
+        txtdriveroute.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField24.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField24.setDisabledTextColor(resourceMap.getColor("jTextField24.disabledTextColor")); // NOI18N
-        jTextField24.setName("jTextField24"); // NOI18N
-        jTextField24.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtdrivemob.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txtdrivemob.setDisabledTextColor(resourceMap.getColor("txtdrivemob.disabledTextColor")); // NOI18N
+        txtdrivemob.setName("txtdrivemob"); // NOI18N
+        txtdrivemob.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -2268,9 +2267,9 @@ public class Cloth2View extends FrameView {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(1, 1, 1)
-                        .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtdrivemob, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtdrivename, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtdriveroute, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(45, 45, 45))
         );
         jPanel4Layout.setVerticalGroup(
@@ -2279,15 +2278,15 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel61, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtdrivename, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(20, 20, 20)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtdriveroute, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel65, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtdrivemob, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -2310,11 +2309,11 @@ public class Cloth2View extends FrameView {
         jLabel80.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel80.setName("jLabel80"); // NOI18N
 
-        jTextField25.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField25.setDisabledTextColor(resourceMap.getColor("jTextField25.disabledTextColor")); // NOI18N
-        jTextField25.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField25.setName("jTextField25"); // NOI18N
-        jTextField25.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransname.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttransname.setDisabledTextColor(resourceMap.getColor("txttransname.disabledTextColor")); // NOI18N
+        txttransname.setMaximumSize(new java.awt.Dimension(65, 35));
+        txttransname.setName("txttransname"); // NOI18N
+        txttransname.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel81.setFont(resourceMap.getFont("jLabel80.font")); // NOI18N
         jLabel81.setText(resourceMap.getString("jLabel81.text")); // NOI18N
@@ -2322,12 +2321,12 @@ public class Cloth2View extends FrameView {
         jLabel81.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel81.setName("jLabel81"); // NOI18N
 
-        jTextField34.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField34.setDisabledTextColor(resourceMap.getColor("jTextField34.disabledTextColor")); // NOI18N
-        jTextField34.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField34.setMinimumSize(new java.awt.Dimension(65, 35));
-        jTextField34.setName("jTextField34"); // NOI18N
-        jTextField34.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransid.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttransid.setDisabledTextColor(resourceMap.getColor("txttransid.disabledTextColor")); // NOI18N
+        txttransid.setMaximumSize(new java.awt.Dimension(65, 35));
+        txttransid.setMinimumSize(new java.awt.Dimension(65, 35));
+        txttransid.setName("txttransid"); // NOI18N
+        txttransid.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jLabel82.setFont(resourceMap.getFont("jLabel80.font")); // NOI18N
         jLabel82.setText(resourceMap.getString("jLabel82.text")); // NOI18N
@@ -2347,31 +2346,31 @@ public class Cloth2View extends FrameView {
         jLabel84.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel84.setName("jLabel84"); // NOI18N
 
-        jTextField35.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField35.setDisabledTextColor(resourceMap.getColor("jTextField35.disabledTextColor")); // NOI18N
-        jTextField35.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField35.setName("jTextField35"); // NOI18N
-        jTextField35.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransbranch.setFont(resourceMap.getFont("txttransbranch.font")); // NOI18N
+        txttransbranch.setDisabledTextColor(resourceMap.getColor("txttransbranch.disabledTextColor")); // NOI18N
+        txttransbranch.setMaximumSize(new java.awt.Dimension(65, 35));
+        txttransbranch.setName("txttransbranch"); // NOI18N
+        txttransbranch.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField36.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField36.setDisabledTextColor(resourceMap.getColor("jTextField36.disabledTextColor")); // NOI18N
-        jTextField36.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField36.setName("jTextField36"); // NOI18N
-        jTextField36.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttranscity.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttranscity.setDisabledTextColor(resourceMap.getColor("txttranscity.disabledTextColor")); // NOI18N
+        txttranscity.setMaximumSize(new java.awt.Dimension(65, 35));
+        txttranscity.setName("txttranscity"); // NOI18N
+        txttranscity.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField37.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField37.setDisabledTextColor(resourceMap.getColor("jTextField37.disabledTextColor")); // NOI18N
-        jTextField37.setMaximumSize(new java.awt.Dimension(65, 35));
-        jTextField37.setName("jTextField37"); // NOI18N
-        jTextField37.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransmanager.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttransmanager.setDisabledTextColor(resourceMap.getColor("txttransmanager.disabledTextColor")); // NOI18N
+        txttransmanager.setMaximumSize(new java.awt.Dimension(65, 35));
+        txttransmanager.setName("txttransmanager"); // NOI18N
+        txttransmanager.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jScrollPane3.setName("jScrollPane3"); // NOI18N
 
-        jTextArea3.setColumns(20);
-        jTextArea3.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextArea3.setRows(5);
-        jTextArea3.setName("jTextArea3"); // NOI18N
-        jScrollPane3.setViewportView(jTextArea3);
+        txttransaddress.setColumns(20);
+        txttransaddress.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttransaddress.setRows(5);
+        txttransaddress.setName("txttransaddress"); // NOI18N
+        jScrollPane3.setViewportView(txttransaddress);
 
         jLabel99.setFont(resourceMap.getFont("jLabel80.font")); // NOI18N
         jLabel99.setText(resourceMap.getString("jLabel99.text")); // NOI18N
@@ -2379,10 +2378,10 @@ public class Cloth2View extends FrameView {
         jLabel99.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel99.setName("jLabel99"); // NOI18N
 
-        jTextField46.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
-        jTextField46.setDisabledTextColor(resourceMap.getColor("jTextField46.disabledTextColor")); // NOI18N
-        jTextField46.setName("jTextField46"); // NOI18N
-        jTextField46.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransmob.setFont(resourceMap.getFont("jTextField35.font")); // NOI18N
+        txttransmob.setDisabledTextColor(resourceMap.getColor("txttransmob.disabledTextColor")); // NOI18N
+        txttransmob.setName("txttransmob"); // NOI18N
+        txttransmob.setPreferredSize(new java.awt.Dimension(65, 30));
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -2399,8 +2398,8 @@ public class Cloth2View extends FrameView {
                                     .addComponent(jLabel81, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField25, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                    .addComponent(jTextField34, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                    .addComponent(txttransname, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                    .addComponent(txttransid, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
                                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel82, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2409,10 +2408,10 @@ public class Cloth2View extends FrameView {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
-                                    .addComponent(jTextField35, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                    .addComponent(jTextField36, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                    .addComponent(jTextField37, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
-                                    .addComponent(jTextField46, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                    .addComponent(txttransbranch, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                    .addComponent(txttranscity, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                    .addComponent(txttransmanager, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                                    .addComponent(txttransmob, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                         .addGap(18, 18, 18))
                     .addGroup(jPanel18Layout.createSequentialGroup()
                         .addComponent(jLabel83, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2426,10 +2425,10 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel18Layout.createSequentialGroup()
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel81, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txttransid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField25, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txttransname, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2441,18 +2440,18 @@ public class Cloth2View extends FrameView {
                         .addGap(18, 18, 18)))
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel82, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txttransbranch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel83, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txttranscity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txttransmanager, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel84, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField46, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txttransmob, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel99, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -2596,33 +2595,33 @@ public class Cloth2View extends FrameView {
         jPanel62.setName("jPanel62"); // NOI18N
         jPanel62.setOpaque(false);
 
-        jButton113.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
-        jButton113.setIcon(resourceMap.getIcon("jButton113.icon")); // NOI18N
-        jButton113.setText(resourceMap.getString("jButton113.text")); // NOI18N
-        jButton113.setName("jButton113"); // NOI18N
+        btntranssave.setFont(resourceMap.getFont("btntranssave.font")); // NOI18N
+        btntranssave.setIcon(resourceMap.getIcon("btntranssave.icon")); // NOI18N
+        btntranssave.setText(resourceMap.getString("btntranssave.text")); // NOI18N
+        btntranssave.setName("btntranssave"); // NOI18N
 
-        jButton114.setAction(actionMap.get("itemsearch")); // NOI18N
-        jButton114.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
-        jButton114.setIcon(resourceMap.getIcon("jButton114.icon")); // NOI18N
-        jButton114.setText(resourceMap.getString("jButton114.text")); // NOI18N
-        jButton114.setName("jButton114"); // NOI18N
+        btntranssearch.setAction(actionMap.get("itemsearch")); // NOI18N
+        btntranssearch.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        btntranssearch.setIcon(resourceMap.getIcon("btntranssearch.icon")); // NOI18N
+        btntranssearch.setText(resourceMap.getString("btntranssearch.text")); // NOI18N
+        btntranssearch.setName("btntranssearch"); // NOI18N
 
-        jButton115.setAction(actionMap.get("update")); // NOI18N
-        jButton115.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
-        jButton115.setIcon(resourceMap.getIcon("jButton115.icon")); // NOI18N
-        jButton115.setText(resourceMap.getString("jButton115.text")); // NOI18N
-        jButton115.setName("jButton115"); // NOI18N
+        btntransupdate.setAction(actionMap.get("update")); // NOI18N
+        btntransupdate.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        btntransupdate.setIcon(resourceMap.getIcon("btntransupdate.icon")); // NOI18N
+        btntransupdate.setText(resourceMap.getString("btntransupdate.text")); // NOI18N
+        btntransupdate.setName("btntransupdate"); // NOI18N
 
-        jButton116.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
-        jButton116.setIcon(resourceMap.getIcon("jButton116.icon")); // NOI18N
-        jButton116.setText(resourceMap.getString("jButton116.text")); // NOI18N
-        jButton116.setName("jButton116"); // NOI18N
+        btntransnew.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        btntransnew.setIcon(resourceMap.getIcon("btntransnew.icon")); // NOI18N
+        btntransnew.setText(resourceMap.getString("btntransnew.text")); // NOI18N
+        btntransnew.setName("btntransnew"); // NOI18N
 
-        jButton117.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton117.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
-        jButton117.setIcon(resourceMap.getIcon("jButton117.icon")); // NOI18N
-        jButton117.setText(resourceMap.getString("jButton117.text")); // NOI18N
-        jButton117.setName("jButton117"); // NOI18N
+        btntransdelete.setAction(actionMap.get("deleteproduct")); // NOI18N
+        btntransdelete.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        btntransdelete.setIcon(resourceMap.getIcon("btntransdelete.icon")); // NOI18N
+        btntransdelete.setText(resourceMap.getString("btntransdelete.text")); // NOI18N
+        btntransdelete.setName("btntransdelete"); // NOI18N
 
         javax.swing.GroupLayout jPanel62Layout = new javax.swing.GroupLayout(jPanel62);
         jPanel62.setLayout(jPanel62Layout);
@@ -2630,15 +2629,15 @@ public class Cloth2View extends FrameView {
             jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel62Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton116, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btntransnew, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton113, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btntranssave, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton114, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btntranssearch, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton117, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btntransdelete, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton115, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btntransupdate, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel62Layout.setVerticalGroup(
@@ -2646,11 +2645,11 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel62Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton113, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton114, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton115, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton116, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
-                    .addComponent(jButton117, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
+                    .addComponent(btntranssave, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btntranssearch, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btntransupdate, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btntransnew, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(btntransdelete, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -2720,9 +2719,9 @@ public class Cloth2View extends FrameView {
         jLabel85.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel85.setName("jLabel85"); // NOI18N
 
-        jComboBox8.setFont(resourceMap.getFont("jTextField48.font")); // NOI18N
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Transport Agency Name", "Transport Id" }));
-        jComboBox8.setName("jComboBox8"); // NOI18N
+        cmdtransportby.setFont(resourceMap.getFont("jTextField48.font")); // NOI18N
+        cmdtransportby.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Transport Agency Name", "Transport Id" }));
+        cmdtransportby.setName("cmdtransportby"); // NOI18N
 
         jLabel101.setFont(resourceMap.getFont("jLabel85.font")); // NOI18N
         jLabel101.setText(resourceMap.getString("jLabel101.text")); // NOI18N
@@ -2736,26 +2735,26 @@ public class Cloth2View extends FrameView {
         jLabel102.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel102.setName("jLabel102"); // NOI18N
 
-        jTextField48.setFont(resourceMap.getFont("jTextField48.font")); // NOI18N
-        jTextField48.setDisabledTextColor(resourceMap.getColor("jTextField48.disabledTextColor")); // NOI18N
-        jTextField48.setName("jTextField48"); // NOI18N
-        jTextField48.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransportname.setFont(resourceMap.getFont("txttransportname.font")); // NOI18N
+        txttransportname.setDisabledTextColor(resourceMap.getColor("txttransportname.disabledTextColor")); // NOI18N
+        txttransportname.setName("txttransportname"); // NOI18N
+        txttransportname.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField49.setFont(resourceMap.getFont("jTextField48.font")); // NOI18N
-        jTextField49.setDisabledTextColor(resourceMap.getColor("jTextField49.disabledTextColor")); // NOI18N
-        jTextField49.setName("jTextField49"); // NOI18N
-        jTextField49.setPreferredSize(new java.awt.Dimension(65, 30));
+        txttransportid.setFont(resourceMap.getFont("jTextField48.font")); // NOI18N
+        txttransportid.setDisabledTextColor(resourceMap.getColor("txttransportid.disabledTextColor")); // NOI18N
+        txttransportid.setName("txttransportid"); // NOI18N
+        txttransportid.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jButton72.setFont(resourceMap.getFont("jButton72.font")); // NOI18N
-        jButton72.setIcon(resourceMap.getIcon("jButton72.icon")); // NOI18N
-        jButton72.setText(resourceMap.getString("jButton72.text")); // NOI18N
-        jButton72.setName("jButton72"); // NOI18N
-        jButton72.setPreferredSize(new java.awt.Dimension(35, 50));
+        btntransportdetail.setFont(resourceMap.getFont("btntransportdetail.font")); // NOI18N
+        btntransportdetail.setIcon(resourceMap.getIcon("btntransportdetail.icon")); // NOI18N
+        btntransportdetail.setText(resourceMap.getString("btntransportdetail.text")); // NOI18N
+        btntransportdetail.setName("btntransportdetail"); // NOI18N
+        btntransportdetail.setPreferredSize(new java.awt.Dimension(35, 50));
 
-        jButton48.setFont(resourceMap.getFont("jButton48.font")); // NOI18N
-        jButton48.setIcon(resourceMap.getIcon("jButton48.icon")); // NOI18N
-        jButton48.setText(resourceMap.getString("jButton48.text")); // NOI18N
-        jButton48.setName("jButton48"); // NOI18N
+        btntransdetail.setFont(resourceMap.getFont("btntransdetail.font")); // NOI18N
+        btntransdetail.setIcon(resourceMap.getIcon("btntransdetail.icon")); // NOI18N
+        btntransdetail.setText(resourceMap.getString("btntransdetail.text")); // NOI18N
+        btntransdetail.setName("btntransdetail"); // NOI18N
 
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
@@ -2767,19 +2766,19 @@ public class Cloth2View extends FrameView {
                     .addGroup(jPanel21Layout.createSequentialGroup()
                         .addComponent(jLabel85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(18, 18, 18)
-                        .addComponent(jComboBox8, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cmdtransportby, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel21Layout.createSequentialGroup()
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel102, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel101, javax.swing.GroupLayout.PREFERRED_SIZE, 168, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(63, 63, 63)
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField48, javax.swing.GroupLayout.DEFAULT_SIZE, 167, Short.MAX_VALUE)
-                            .addComponent(jTextField49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(txttransportname, javax.swing.GroupLayout.DEFAULT_SIZE, 167, Short.MAX_VALUE)
+                            .addComponent(txttransportid, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel21Layout.createSequentialGroup()
-                        .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btntransportdetail, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton48)
+                        .addComponent(btntransdetail)
                         .addGap(19, 19, 19))))
         );
         jPanel21Layout.setVerticalGroup(
@@ -2788,7 +2787,7 @@ public class Cloth2View extends FrameView {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel85, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmdtransportby, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel21Layout.createSequentialGroup()
@@ -2796,13 +2795,13 @@ public class Cloth2View extends FrameView {
                         .addGap(18, 18, 18)
                         .addComponent(jLabel101, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel21Layout.createSequentialGroup()
-                        .addComponent(jTextField49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txttransportid, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jTextField48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txttransportname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton48))
+                    .addComponent(btntransportdetail, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btntransdetail))
                 .addGap(0, 20, Short.MAX_VALUE))
         );
 
@@ -3113,9 +3112,9 @@ public class Cloth2View extends FrameView {
         jLabel72.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel72.setName("jLabel72"); // NOI18N
 
-        jComboBox9.setFont(resourceMap.getFont("jComboBox9.font")); // NOI18N
-        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Men", "Women", "Boy-kid", "Girl-Kid" }));
-        jComboBox9.setName("jComboBox9"); // NOI18N
+        cmbstockgroup.setFont(resourceMap.getFont("cmbstockgroup.font")); // NOI18N
+        cmbstockgroup.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Men", "Women", "Boy-kid", "Girl-Kid" }));
+        cmbstockgroup.setName("cmbstockgroup"); // NOI18N
 
         jLabel114.setFont(resourceMap.getFont("jLabel115.font")); // NOI18N
         jLabel114.setText(resourceMap.getString("jLabel114.text")); // NOI18N
@@ -3129,25 +3128,25 @@ public class Cloth2View extends FrameView {
         jLabel115.setMinimumSize(new java.awt.Dimension(65, 35));
         jLabel115.setName("jLabel115"); // NOI18N
 
-        jTextField58.setFont(resourceMap.getFont("jComboBox9.font")); // NOI18N
-        jTextField58.setDisabledTextColor(resourceMap.getColor("jTextField58.disabledTextColor")); // NOI18N
-        jTextField58.setName("jTextField58"); // NOI18N
-        jTextField58.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtstocktype.setFont(resourceMap.getFont("jComboBox9.font")); // NOI18N
+        txtstocktype.setDisabledTextColor(resourceMap.getColor("txtstocktype.disabledTextColor")); // NOI18N
+        txtstocktype.setName("txtstocktype"); // NOI18N
+        txtstocktype.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jTextField59.setFont(resourceMap.getFont("jComboBox9.font")); // NOI18N
-        jTextField59.setDisabledTextColor(resourceMap.getColor("jTextField59.disabledTextColor")); // NOI18N
-        jTextField59.setName("jTextField59"); // NOI18N
-        jTextField59.setPreferredSize(new java.awt.Dimension(65, 30));
+        txtstockbrand.setFont(resourceMap.getFont("jComboBox9.font")); // NOI18N
+        txtstockbrand.setDisabledTextColor(resourceMap.getColor("txtstockbrand.disabledTextColor")); // NOI18N
+        txtstockbrand.setName("txtstockbrand"); // NOI18N
+        txtstockbrand.setPreferredSize(new java.awt.Dimension(65, 30));
 
-        jButton21.setFont(resourceMap.getFont("jButton21.font")); // NOI18N
-        jButton21.setIcon(resourceMap.getIcon("jButton21.icon")); // NOI18N
-        jButton21.setText(resourceMap.getString("jButton21.text")); // NOI18N
-        jButton21.setName("jButton21"); // NOI18N
+        btnstocksubmit.setFont(resourceMap.getFont("btnstocksubmit.font")); // NOI18N
+        btnstocksubmit.setIcon(resourceMap.getIcon("btnstocksubmit.icon")); // NOI18N
+        btnstocksubmit.setText(resourceMap.getString("btnstocksubmit.text")); // NOI18N
+        btnstocksubmit.setName("btnstocksubmit"); // NOI18N
 
-        jButton46.setFont(resourceMap.getFont("jButton46.font")); // NOI18N
-        jButton46.setIcon(resourceMap.getIcon("jButton46.icon")); // NOI18N
-        jButton46.setText(resourceMap.getString("jButton46.text")); // NOI18N
-        jButton46.setName("jButton46"); // NOI18N
+        btnstockprint.setFont(resourceMap.getFont("btnstockprint.font")); // NOI18N
+        btnstockprint.setIcon(resourceMap.getIcon("btnstockprint.icon")); // NOI18N
+        btnstockprint.setText(resourceMap.getString("btnstockprint.text")); // NOI18N
+        btnstockprint.setName("btnstockprint"); // NOI18N
 
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
         jPanel28.setLayout(jPanel28Layout);
@@ -3163,19 +3162,19 @@ public class Cloth2View extends FrameView {
                         .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel28Layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jTextField58, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txtstocktype, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel28Layout.createSequentialGroup()
                                 .addGap(86, 86, 86)
-                                .addComponent(jComboBox9, 0, 1, Short.MAX_VALUE))))
+                                .addComponent(cmbstockgroup, 0, 1, Short.MAX_VALUE))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel28Layout.createSequentialGroup()
                         .addComponent(jLabel115, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jTextField59, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txtstockbrand, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel28Layout.createSequentialGroup()
                         .addGap(44, 44, 44)
-                        .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnstocksubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnstockprint, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(24, 24, 24)))
                 .addContainerGap())
         );
@@ -3185,7 +3184,7 @@ public class Cloth2View extends FrameView {
                 .addGap(18, 18, 18)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel72, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbstockgroup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel28Layout.createSequentialGroup()
@@ -3193,13 +3192,13 @@ public class Cloth2View extends FrameView {
                         .addGap(18, 18, 18)
                         .addComponent(jLabel114, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel28Layout.createSequentialGroup()
-                        .addComponent(jTextField59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(txtstockbrand, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jTextField58, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtstocktype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton46, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton21, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnstockprint, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnstocksubmit, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap())
         );
 
@@ -3249,16 +3248,16 @@ public class Cloth2View extends FrameView {
         jLabel121.setText(resourceMap.getString("jLabel121.text")); // NOI18N
         jLabel121.setName("jLabel121"); // NOI18N
 
-        jComboBox22.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox22.setName("jComboBox22"); // NOI18N
+        cmdmainproduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmdmainproduct.setName("cmdmainproduct"); // NOI18N
 
         jLabel125.setFont(resourceMap.getFont("jLabel125.font")); // NOI18N
         jLabel125.setText(resourceMap.getString("jLabel125.text")); // NOI18N
         jLabel125.setName("jLabel125"); // NOI18N
 
-        jComboBox23.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox23.setAutoscrolls(true);
-        jComboBox23.setName("jComboBox23"); // NOI18N
+        cmbsubproduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbsubproduct.setAutoscrolls(true);
+        cmbsubproduct.setName("cmbsubproduct"); // NOI18N
 
         jButton69.setFont(resourceMap.getFont("jButton69.font")); // NOI18N
         jButton69.setIcon(resourceMap.getIcon("jButton69.icon")); // NOI18N
@@ -3276,8 +3275,8 @@ public class Cloth2View extends FrameView {
                     .addComponent(jLabel125))
                 .addGap(84, 84, 84)
                 .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jComboBox22, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jComboBox23, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmdmainproduct, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(cmbsubproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel36Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -3289,11 +3288,11 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel121)
-                    .addComponent(jComboBox22, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmdmainproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel125)
-                    .addComponent(jComboBox23, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbsubproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton69, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -3312,10 +3311,10 @@ public class Cloth2View extends FrameView {
         jLabel68.setText(resourceMap.getString("jLabel68.text")); // NOI18N
         jLabel68.setName("jLabel68"); // NOI18N
 
-        jComboBox17.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox17.setName("jComboBox17"); // NOI18N
+        cmbmainproduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbmainproduct.setName("cmbmainproduct"); // NOI18N
 
-        jTextField76.setName("jTextField76"); // NOI18N
+        txtsubproduct.setName("txtsubproduct"); // NOI18N
 
         jButton67.setFont(resourceMap.getFont("jButton67.font")); // NOI18N
         jButton67.setIcon(resourceMap.getIcon("jButton67.icon")); // NOI18N
@@ -3333,8 +3332,8 @@ public class Cloth2View extends FrameView {
                     .addComponent(jLabel68))
                 .addGap(92, 92, 92)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jComboBox17, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextField76, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbmainproduct, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(txtsubproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel35Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -3345,12 +3344,12 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel35Layout.createSequentialGroup()
                 .addGap(13, 13, 13)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox17, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbmainproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel67))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel35Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel68)
-                    .addComponent(jTextField76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtsubproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton67, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -3390,7 +3389,7 @@ public class Cloth2View extends FrameView {
         jLabel152.setText(resourceMap.getString("jLabel152.text")); // NOI18N
         jLabel152.setName("jLabel152"); // NOI18N
 
-        jTextField75.setName("jTextField75"); // NOI18N
+        txtaddproduct.setName("txtaddproduct"); // NOI18N
 
         jButton66.setFont(resourceMap.getFont("jButton66.font")); // NOI18N
         jButton66.setIcon(resourceMap.getIcon("jButton66.icon")); // NOI18N
@@ -3405,7 +3404,7 @@ public class Cloth2View extends FrameView {
                 .addGap(71, 71, 71)
                 .addComponent(jLabel152)
                 .addGap(52, 52, 52)
-                .addComponent(jTextField75, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtaddproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -3417,7 +3416,7 @@ public class Cloth2View extends FrameView {
                 .addGap(12, 12, 12)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel152)
-                    .addComponent(jTextField75, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtaddproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton66, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -3432,9 +3431,9 @@ public class Cloth2View extends FrameView {
         jLabel17.setText(resourceMap.getString("jLabel17.text")); // NOI18N
         jLabel17.setName("jLabel17"); // NOI18N
 
-        jComboBox12.setFont(resourceMap.getFont("jLabel17.font")); // NOI18N
-        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox12.setName("jComboBox12"); // NOI18N
+        cmbremoveproduct.setFont(resourceMap.getFont("jLabel17.font")); // NOI18N
+        cmbremoveproduct.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbremoveproduct.setName("cmbremoveproduct"); // NOI18N
 
         jButton68.setFont(resourceMap.getFont("jButton68.font")); // NOI18N
         jButton68.setIcon(resourceMap.getIcon("jButton68.icon")); // NOI18N
@@ -3449,7 +3448,7 @@ public class Cloth2View extends FrameView {
                 .addGap(68, 68, 68)
                 .addComponent(jLabel17)
                 .addGap(55, 55, 55)
-                .addComponent(jComboBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cmbremoveproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel31Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -3460,7 +3459,7 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel31Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jComboBox12, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbremoveproduct, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel17))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton68, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -3523,14 +3522,14 @@ public class Cloth2View extends FrameView {
         jLabel157.setText(resourceMap.getString("jLabel157.text")); // NOI18N
         jLabel157.setName("jLabel157"); // NOI18N
         jPanel17.add(jLabel157);
-        jLabel157.setBounds(16, 20, 74, 17);
+        jLabel157.setBounds(14, 30, 80, 17);
 
         jScrollPane8.setName("jScrollPane8"); // NOI18N
 
-        jTextArea8.setColumns(20);
-        jTextArea8.setRows(5);
-        jTextArea8.setName("jTextArea8"); // NOI18N
-        jScrollPane8.setViewportView(jTextArea8);
+        txtcaddress.setColumns(20);
+        txtcaddress.setRows(5);
+        txtcaddress.setName("txtcaddress"); // NOI18N
+        jScrollPane8.setViewportView(txtcaddress);
 
         jPanel17.add(jScrollPane8);
         jScrollPane8.setBounds(110, 180, 156, 55);
@@ -3545,25 +3544,25 @@ public class Cloth2View extends FrameView {
         jLabel159.setText(resourceMap.getString("jLabel159.text")); // NOI18N
         jLabel159.setName("jLabel159"); // NOI18N
         jPanel17.add(jLabel159);
-        jLabel159.setBounds(16, 57, 74, 17);
+        jLabel159.setBounds(14, 70, 80, 17);
 
-        jTextField27.setName("jTextField27"); // NOI18N
-        jPanel17.add(jTextField27);
-        jTextField27.setBounds(110, 20, 156, 30);
+        txtccity.setName("txtccity"); // NOI18N
+        jPanel17.add(txtccity);
+        txtccity.setBounds(110, 20, 156, 30);
 
-        jTextField29.setName("jTextField29"); // NOI18N
-        jPanel17.add(jTextField29);
-        jTextField29.setBounds(110, 60, 156, 30);
+        txtcpin.setName("txtcpin"); // NOI18N
+        jPanel17.add(txtcpin);
+        txtcpin.setBounds(110, 60, 156, 30);
 
         jLabel160.setFont(resourceMap.getFont("jLabel71.font")); // NOI18N
         jLabel160.setText(resourceMap.getString("jLabel160.text")); // NOI18N
         jLabel160.setName("jLabel160"); // NOI18N
         jPanel17.add(jLabel160);
-        jLabel160.setBounds(16, 105, 160, 17);
+        jLabel160.setBounds(16, 105, 90, 20);
 
-        jTextField77.setName("jTextField77"); // NOI18N
-        jPanel17.add(jTextField77);
-        jTextField77.setBounds(110, 100, 156, 30);
+        txtcmob.setName("txtcmob"); // NOI18N
+        jPanel17.add(txtcmob);
+        txtcmob.setBounds(110, 100, 156, 30);
 
         jLabel57.setFont(resourceMap.getFont("jLabel57.font")); // NOI18N
         jLabel57.setText(resourceMap.getString("jLabel57.text")); // NOI18N
@@ -3571,9 +3570,9 @@ public class Cloth2View extends FrameView {
         jPanel17.add(jLabel57);
         jLabel57.setBounds(16, 134, 32, 37);
 
-        jDateChooser5.setName("jDateChooser5"); // NOI18N
-        jPanel17.add(jDateChooser5);
-        jDateChooser5.setBounds(110, 140, 156, 30);
+        txtcdate.setName("txtcdate"); // NOI18N
+        jPanel17.add(txtcdate);
+        txtcdate.setBounds(110, 140, 156, 30);
 
         jPanel19.add(jPanel17);
         jPanel17.setBounds(470, 50, 400, 250);
@@ -3602,17 +3601,17 @@ public class Cloth2View extends FrameView {
         jLabel71.setText(resourceMap.getString("jLabel71.text")); // NOI18N
         jLabel71.setName("jLabel71"); // NOI18N
 
-        jTextField78.setName("jTextField78"); // NOI18N
+        txtcustid.setName("txtcustid"); // NOI18N
 
-        jTextField26.setName("jTextField26"); // NOI18N
+        txtcfirstname.setName("txtcfirstname"); // NOI18N
 
-        jTextField28.setName("jTextField28"); // NOI18N
+        txtclastname.setName("txtclastname"); // NOI18N
 
-        jComboBox18.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female" }));
-        jComboBox18.setName("jComboBox18"); // NOI18N
+        cmbcsex.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female" }));
+        cmbcsex.setName("cmbcsex"); // NOI18N
 
-        jComboBox19.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mr.", "Mrs.", "---" }));
-        jComboBox19.setName("jComboBox19"); // NOI18N
+        cmbcsalution.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mr.", "Mrs.", "---" }));
+        cmbcsalution.setName("cmbcsalution"); // NOI18N
 
         javax.swing.GroupLayout jPanel46Layout = new javax.swing.GroupLayout(jPanel46);
         jPanel46.setLayout(jPanel46Layout);
@@ -3633,17 +3632,17 @@ public class Cloth2View extends FrameView {
                                 .addComponent(jLabel70)))
                         .addGap(24, 24, 24)
                         .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox19, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox18, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txtclastname, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtcfirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cmbcsalution, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(cmbcsex, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel46Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel46Layout.createSequentialGroup()
                                 .addComponent(jLabel161)
                                 .addGap(18, 18, 18)
-                                .addComponent(jTextField78, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(txtcustid, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel71, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(123, 123, 123))
         );
@@ -3654,25 +3653,25 @@ public class Cloth2View extends FrameView {
                     .addGroup(jPanel46Layout.createSequentialGroup()
                         .addGap(11, 11, 11)
                         .addComponent(jLabel161))
-                    .addComponent(jTextField78, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtcustid, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(11, 11, 11)
                 .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel46Layout.createSequentialGroup()
                         .addGap(6, 6, 6)
                         .addComponent(jLabel162))
-                    .addComponent(jComboBox19, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbcsalution, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(16, 16, 16)
                 .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel69)
-                    .addComponent(jTextField26, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtcfirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(10, 10, 10)
                 .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel70)
-                    .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtclastname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(16, 16, 16)
                 .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel71)
-                    .addComponent(jComboBox18, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbcsex, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(6, 6, 6))
         );
 
@@ -3683,29 +3682,29 @@ public class Cloth2View extends FrameView {
         jPanel45.setName("jPanel45"); // NOI18N
         jPanel45.setOpaque(false);
 
-        jButton108.setAction(actionMap.get("savecustomer")); // NOI18N
-        jButton108.setIcon(resourceMap.getIcon("jButton108.icon")); // NOI18N
-        jButton108.setText(resourceMap.getString("jButton108.text")); // NOI18N
-        jButton108.setName("jButton108"); // NOI18N
+        btnsavecust.setAction(actionMap.get("savecustomer")); // NOI18N
+        btnsavecust.setIcon(resourceMap.getIcon("btnsavecust.icon")); // NOI18N
+        btnsavecust.setText(resourceMap.getString("btnsavecust.text")); // NOI18N
+        btnsavecust.setName("btnsavecust"); // NOI18N
 
-        jButton109.setAction(actionMap.get("itemsearch")); // NOI18N
-        jButton109.setIcon(resourceMap.getIcon("jButton109.icon")); // NOI18N
-        jButton109.setText(resourceMap.getString("jButton109.text")); // NOI18N
-        jButton109.setName("jButton109"); // NOI18N
+        btnsearchcust.setAction(actionMap.get("itemsearch")); // NOI18N
+        btnsearchcust.setIcon(resourceMap.getIcon("btnsearchcust.icon")); // NOI18N
+        btnsearchcust.setText(resourceMap.getString("btnsearchcust.text")); // NOI18N
+        btnsearchcust.setName("btnsearchcust"); // NOI18N
 
-        jButton110.setAction(actionMap.get("update")); // NOI18N
-        jButton110.setIcon(resourceMap.getIcon("jButton110.icon")); // NOI18N
-        jButton110.setText(resourceMap.getString("jButton110.text")); // NOI18N
-        jButton110.setName("jButton110"); // NOI18N
+        btnupdatecust.setAction(actionMap.get("update")); // NOI18N
+        btnupdatecust.setIcon(resourceMap.getIcon("btnupdatecust.icon")); // NOI18N
+        btnupdatecust.setText(resourceMap.getString("btnupdatecust.text")); // NOI18N
+        btnupdatecust.setName("btnupdatecust"); // NOI18N
 
-        jButton111.setIcon(resourceMap.getIcon("jButton111.icon")); // NOI18N
-        jButton111.setText(resourceMap.getString("jButton111.text")); // NOI18N
-        jButton111.setName("jButton111"); // NOI18N
+        btnnewcust.setIcon(resourceMap.getIcon("btnnewcust.icon")); // NOI18N
+        btnnewcust.setText(resourceMap.getString("btnnewcust.text")); // NOI18N
+        btnnewcust.setName("btnnewcust"); // NOI18N
 
-        jButton112.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton112.setIcon(resourceMap.getIcon("jButton112.icon")); // NOI18N
-        jButton112.setText(resourceMap.getString("jButton112.text")); // NOI18N
-        jButton112.setName("jButton112"); // NOI18N
+        btndeletecust.setAction(actionMap.get("deleteproduct")); // NOI18N
+        btndeletecust.setIcon(resourceMap.getIcon("btndeletecust.icon")); // NOI18N
+        btndeletecust.setText(resourceMap.getString("btndeletecust.text")); // NOI18N
+        btndeletecust.setName("btndeletecust"); // NOI18N
 
         javax.swing.GroupLayout jPanel45Layout = new javax.swing.GroupLayout(jPanel45);
         jPanel45.setLayout(jPanel45Layout);
@@ -3713,15 +3712,15 @@ public class Cloth2View extends FrameView {
             jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel45Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton111, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnnewcust, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton108, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsavecust, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton109, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsearchcust, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton112, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btndeletecust, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jButton110, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnupdatecust, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel45Layout.setVerticalGroup(
@@ -3729,11 +3728,11 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel45Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel45Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton108, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton109, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton110, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton111, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
-                    .addComponent(jButton112, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE))
+                    .addComponent(btnsavecust, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnsearchcust, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnupdatecust, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btnnewcust, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+                    .addComponent(btndeletecust, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -4091,17 +4090,17 @@ public class Cloth2View extends FrameView {
         jLabel175.setText(resourceMap.getString("jLabel175.text")); // NOI18N
         jLabel175.setName("jLabel175"); // NOI18N
 
-        jTextField82.setName("jTextField82"); // NOI18N
+        txteid.setName("txteid"); // NOI18N
 
-        jTextField83.setName("jTextField83"); // NOI18N
+        txtefirstname.setName("txtefirstname"); // NOI18N
 
-        jTextField84.setName("jTextField84"); // NOI18N
+        txtelastname.setName("txtelastname"); // NOI18N
 
-        jComboBox21.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female" }));
-        jComboBox21.setName("jComboBox21"); // NOI18N
+        cmbesex.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Male", "Female" }));
+        cmbesex.setName("cmbesex"); // NOI18N
 
-        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mr.", "Mrs.", "---" }));
-        jComboBox10.setName("jComboBox10"); // NOI18N
+        cmbesalution.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Mr.", "Mrs.", "---" }));
+        cmbesalution.setName("cmbesalution"); // NOI18N
 
         javax.swing.GroupLayout jPanel50Layout = new javax.swing.GroupLayout(jPanel50);
         jPanel50.setLayout(jPanel50Layout);
@@ -4111,21 +4110,21 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel172)
-                    .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbesalution, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel171)
                     .addComponent(jLabel175, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 15, Short.MAX_VALUE)
                 .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel50Layout.createSequentialGroup()
                         .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField83, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtefirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel173))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField84, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txtelastname, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel174)))
-                    .addComponent(jTextField82, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txteid, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cmbesex, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29))
         );
         jPanel50Layout.setVerticalGroup(
@@ -4133,7 +4132,7 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel50Layout.createSequentialGroup()
                 .addGap(15, 15, 15)
                 .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField82, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txteid, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel171))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4141,19 +4140,19 @@ public class Cloth2View extends FrameView {
                         .addGroup(jPanel50Layout.createSequentialGroup()
                             .addComponent(jLabel173)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jTextField83, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtefirstname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(jPanel50Layout.createSequentialGroup()
                             .addComponent(jLabel174)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(jTextField84, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(txtelastname, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel50Layout.createSequentialGroup()
                         .addComponent(jLabel172)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jComboBox10, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(cmbesalution, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel50Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel175)
-                    .addComponent(jComboBox21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbesex, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(13, Short.MAX_VALUE))
         );
 
@@ -4172,15 +4171,15 @@ public class Cloth2View extends FrameView {
         jLabel177.setText(resourceMap.getString("jLabel177.text")); // NOI18N
         jLabel177.setName("jLabel177"); // NOI18N
 
-        jTextField86.setName("jTextField86"); // NOI18N
+        txteshift.setName("txteshift"); // NOI18N
 
         jLabel178.setFont(resourceMap.getFont("jLabel171.font")); // NOI18N
         jLabel178.setText(resourceMap.getString("jLabel178.text")); // NOI18N
         jLabel178.setName("jLabel178"); // NOI18N
 
-        jTextField87.setName("jTextField87"); // NOI18N
+        txtesalary.setName("txtesalary"); // NOI18N
 
-        jDateChooser4.setName("jDateChooser4"); // NOI18N
+        txtejoin.setName("txtejoin"); // NOI18N
 
         javax.swing.GroupLayout jPanel51Layout = new javax.swing.GroupLayout(jPanel51);
         jPanel51.setLayout(jPanel51Layout);
@@ -4195,9 +4194,9 @@ public class Cloth2View extends FrameView {
                 .addGap(37, 37, 37)
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jTextField86, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
-                        .addComponent(jTextField87))
-                    .addComponent(jDateChooser4, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(txteshift, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 156, Short.MAX_VALUE)
+                        .addComponent(txtesalary))
+                    .addComponent(txtejoin, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(34, Short.MAX_VALUE))
         );
         jPanel51Layout.setVerticalGroup(
@@ -4205,15 +4204,15 @@ public class Cloth2View extends FrameView {
             .addGroup(jPanel51Layout.createSequentialGroup()
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel176)
-                    .addComponent(jDateChooser4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtejoin, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel177)
-                    .addComponent(jTextField86, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txteshift, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel51Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel178)
-                    .addComponent(jTextField87, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtesalary, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(41, Short.MAX_VALUE))
         );
 
@@ -4224,44 +4223,34 @@ public class Cloth2View extends FrameView {
         jPanel52.setName("jPanel52"); // NOI18N
         jPanel52.setOpaque(false);
 
-        jButton51.setAction(actionMap.get("addcustomer")); // NOI18N
-        jButton51.setFont(resourceMap.getFont("jButton51.font")); // NOI18N
-        jButton51.setIcon(resourceMap.getIcon("jButton51.icon")); // NOI18N
-        jButton51.setText(resourceMap.getString("jButton51.text")); // NOI18N
-        jButton51.setName("jButton51"); // NOI18N
+        btnsaveemp.setAction(actionMap.get("addcustomer")); // NOI18N
+        btnsaveemp.setFont(resourceMap.getFont("btnsaveemp.font")); // NOI18N
+        btnsaveemp.setIcon(resourceMap.getIcon("btnsaveemp.icon")); // NOI18N
+        btnsaveemp.setText(resourceMap.getString("btnsaveemp.text")); // NOI18N
+        btnsaveemp.setName("btnsaveemp"); // NOI18N
 
-        jButton76.setAction(actionMap.get("itemsearch")); // NOI18N
-        jButton76.setFont(resourceMap.getFont("jButton76.font")); // NOI18N
-        jButton76.setIcon(resourceMap.getIcon("jButton76.icon")); // NOI18N
-        jButton76.setText(resourceMap.getString("jButton76.text")); // NOI18N
-        jButton76.setName("jButton76"); // NOI18N
+        btnsearchemp.setAction(actionMap.get("itemsearch")); // NOI18N
+        btnsearchemp.setFont(resourceMap.getFont("btnsearchemp.font")); // NOI18N
+        btnsearchemp.setIcon(resourceMap.getIcon("btnsearchemp.icon")); // NOI18N
+        btnsearchemp.setText(resourceMap.getString("btnsearchemp.text")); // NOI18N
+        btnsearchemp.setName("btnsearchemp"); // NOI18N
 
-        jButton52.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton52.setFont(resourceMap.getFont("jButton52.font")); // NOI18N
-        jButton52.setText(resourceMap.getString("jButton52.text")); // NOI18N
-        jButton52.setName("jButton52"); // NOI18N
+        btndeleteemp.setAction(actionMap.get("deleteproduct")); // NOI18N
+        btndeleteemp.setFont(resourceMap.getFont("btndeleteemp.font")); // NOI18N
+        btndeleteemp.setIcon(resourceMap.getIcon("btndeleteemp.icon")); // NOI18N
+        btndeleteemp.setText(resourceMap.getString("btndeleteemp.text")); // NOI18N
+        btndeleteemp.setName("btndeleteemp"); // NOI18N
 
-        jButton53.setAction(actionMap.get("update")); // NOI18N
-        jButton53.setFont(resourceMap.getFont("jButton53.font")); // NOI18N
-        jButton53.setText(resourceMap.getString("jButton53.text")); // NOI18N
-        jButton53.setName("jButton53"); // NOI18N
+        btnupdateemp.setAction(actionMap.get("update")); // NOI18N
+        btnupdateemp.setFont(resourceMap.getFont("btnupdateemp.font")); // NOI18N
+        btnupdateemp.setIcon(resourceMap.getIcon("btnupdateemp.icon")); // NOI18N
+        btnupdateemp.setText(resourceMap.getString("btnupdateemp.text")); // NOI18N
+        btnupdateemp.setName("btnupdateemp"); // NOI18N
 
-        jButton58.setAction(actionMap.get("deleteproduct")); // NOI18N
-        jButton58.setFont(resourceMap.getFont("jButton58.font")); // NOI18N
-        jButton58.setIcon(resourceMap.getIcon("jButton58.icon")); // NOI18N
-        jButton58.setText(resourceMap.getString("jButton58.text")); // NOI18N
-        jButton58.setName("jButton58"); // NOI18N
-
-        jButton59.setAction(actionMap.get("update")); // NOI18N
-        jButton59.setFont(resourceMap.getFont("jButton59.font")); // NOI18N
-        jButton59.setIcon(resourceMap.getIcon("jButton59.icon")); // NOI18N
-        jButton59.setText(resourceMap.getString("jButton59.text")); // NOI18N
-        jButton59.setName("jButton59"); // NOI18N
-
-        jButton64.setFont(resourceMap.getFont("jButton64.font")); // NOI18N
-        jButton64.setIcon(resourceMap.getIcon("jButton64.icon")); // NOI18N
-        jButton64.setText(resourceMap.getString("jButton64.text")); // NOI18N
-        jButton64.setName("jButton64"); // NOI18N
+        btnnewemp.setFont(resourceMap.getFont("btnnewemp.font")); // NOI18N
+        btnnewemp.setIcon(resourceMap.getIcon("btnnewemp.icon")); // NOI18N
+        btnnewemp.setText(resourceMap.getString("btnnewemp.text")); // NOI18N
+        btnnewemp.setName("btnnewemp"); // NOI18N
 
         javax.swing.GroupLayout jPanel52Layout = new javax.swing.GroupLayout(jPanel52);
         jPanel52.setLayout(jPanel52Layout);
@@ -4269,42 +4258,28 @@ public class Cloth2View extends FrameView {
             jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel52Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnnewemp, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsaveemp, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnsearchemp, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btndeleteemp, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton59, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnupdateemp, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel52Layout.createSequentialGroup()
-                    .addGap(16, 16, 16)
-                    .addComponent(jButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 554, Short.MAX_VALUE)
-                    .addComponent(jButton53, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(23, 23, 23)))
         );
         jPanel52Layout.setVerticalGroup(
             jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel52Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton51, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton64, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton76, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton58, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton59, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel52Layout.createSequentialGroup()
-                    .addGap(116, 116, 116)
-                    .addGroup(jPanel52Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton52, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton53, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(btnsaveemp, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnnewemp, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnsearchemp, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btndeleteemp, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnupdateemp, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(0, 12, Short.MAX_VALUE))
         );
 
         jPanel48.add(jPanel52);
@@ -4339,27 +4314,27 @@ public class Cloth2View extends FrameView {
         jPanel8.add(jLabel55);
         jLabel55.setBounds(10, 110, 70, 20);
 
-        jTextField19.setText(resourceMap.getString("jTextField19.text")); // NOI18N
-        jTextField19.setName("jTextField19"); // NOI18N
-        jPanel8.add(jTextField19);
-        jTextField19.setBounds(110, 30, 156, 30);
+        txtecity.setText(resourceMap.getString("txtecity.text")); // NOI18N
+        txtecity.setName("txtecity"); // NOI18N
+        jPanel8.add(txtecity);
+        txtecity.setBounds(110, 30, 156, 30);
 
-        jTextField20.setText(resourceMap.getString("jTextField20.text")); // NOI18N
-        jTextField20.setName("jTextField20"); // NOI18N
-        jPanel8.add(jTextField20);
-        jTextField20.setBounds(110, 70, 156, 30);
+        txtemob.setText(resourceMap.getString("txtemob.text")); // NOI18N
+        txtemob.setName("txtemob"); // NOI18N
+        jPanel8.add(txtemob);
+        txtemob.setBounds(110, 70, 156, 30);
 
-        jTextField21.setText(resourceMap.getString("jTextField21.text")); // NOI18N
-        jTextField21.setName("jTextField21"); // NOI18N
-        jPanel8.add(jTextField21);
-        jTextField21.setBounds(110, 110, 156, 30);
+        txtepin.setText(resourceMap.getString("txtepin.text")); // NOI18N
+        txtepin.setName("txtepin"); // NOI18N
+        jPanel8.add(txtepin);
+        txtepin.setBounds(110, 110, 156, 30);
 
         jScrollPane6.setName("jScrollPane6"); // NOI18N
 
-        jTextArea6.setColumns(20);
-        jTextArea6.setRows(5);
-        jTextArea6.setName("jTextArea6"); // NOI18N
-        jScrollPane6.setViewportView(jTextArea6);
+        txteaddress.setColumns(20);
+        txteaddress.setRows(5);
+        txteaddress.setName("txteaddress"); // NOI18N
+        jScrollPane6.setViewportView(txteaddress);
 
         jPanel8.add(jScrollPane6);
         jScrollPane6.setBounds(290, 50, 170, 70);
@@ -4405,9 +4380,9 @@ public class Cloth2View extends FrameView {
         jLabel180.setText(resourceMap.getString("jLabel180.text")); // NOI18N
         jLabel180.setName("jLabel180"); // NOI18N
 
-        jComboBox11.setFont(resourceMap.getFont("jComboBox11.font")); // NOI18N
-        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox11.setName("jComboBox11"); // NOI18N
+        cmbemplist.setFont(resourceMap.getFont("cmbemplist.font")); // NOI18N
+        cmbemplist.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        cmbemplist.setName("cmbemplist"); // NOI18N
 
         javax.swing.GroupLayout jPanel53Layout = new javax.swing.GroupLayout(jPanel53);
         jPanel53.setLayout(jPanel53Layout);
@@ -4417,7 +4392,7 @@ public class Cloth2View extends FrameView {
                 .addContainerGap()
                 .addComponent(jLabel180)
                 .addGap(54, 54, 54)
-                .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cmbemplist, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(155, Short.MAX_VALUE))
         );
         jPanel53Layout.setVerticalGroup(
@@ -4426,7 +4401,7 @@ public class Cloth2View extends FrameView {
                 .addGap(17, 17, 17)
                 .addGroup(jPanel53Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel180)
-                    .addComponent(jComboBox11, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cmbemplist, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
 
@@ -4438,33 +4413,33 @@ public class Cloth2View extends FrameView {
         jPanel37.setOpaque(false);
         jPanel37.setLayout(null);
 
-        jButton56.setFont(resourceMap.getFont("jButton56.font")); // NOI18N
-        jButton56.setIcon(resourceMap.getIcon("jButton56.icon")); // NOI18N
-        jButton56.setText(resourceMap.getString("jButton56.text")); // NOI18N
-        jButton56.setName("jButton56"); // NOI18N
-        jPanel37.add(jButton56);
-        jButton56.setBounds(20, 160, 150, 50);
+        btnempsubmit.setFont(resourceMap.getFont("btnempsubmit.font")); // NOI18N
+        btnempsubmit.setIcon(resourceMap.getIcon("btnempsubmit.icon")); // NOI18N
+        btnempsubmit.setText(resourceMap.getString("btnempsubmit.text")); // NOI18N
+        btnempsubmit.setName("btnempsubmit"); // NOI18N
+        jPanel37.add(btnempsubmit);
+        btnempsubmit.setBounds(20, 160, 150, 50);
 
-        jButton55.setAction(actionMap.get("presenti")); // NOI18N
-        jButton55.setFont(resourceMap.getFont("jButton55.font")); // NOI18N
-        jButton55.setIcon(resourceMap.getIcon("jButton55.icon")); // NOI18N
-        jButton55.setText(resourceMap.getString("jButton55.text")); // NOI18N
-        jButton55.setName("jButton55"); // NOI18N
-        jButton55.addActionListener(new java.awt.event.ActionListener() {
+        btnempadd.setAction(actionMap.get("presenti")); // NOI18N
+        btnempadd.setFont(resourceMap.getFont("btnempadd.font")); // NOI18N
+        btnempadd.setIcon(resourceMap.getIcon("btnempadd.icon")); // NOI18N
+        btnempadd.setText(resourceMap.getString("btnempadd.text")); // NOI18N
+        btnempadd.setName("btnempadd"); // NOI18N
+        btnempadd.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton55ActionPerformed(evt);
+                btnempaddActionPerformed(evt);
             }
         });
-        jPanel37.add(jButton55);
-        jButton55.setBounds(20, 20, 150, 50);
+        jPanel37.add(btnempadd);
+        btnempadd.setBounds(20, 20, 150, 50);
 
-        jButton57.setAction(actionMap.get("presenti")); // NOI18N
-        jButton57.setFont(resourceMap.getFont("jButton57.font")); // NOI18N
-        jButton57.setIcon(resourceMap.getIcon("jButton57.icon")); // NOI18N
-        jButton57.setText(resourceMap.getString("jButton57.text")); // NOI18N
-        jButton57.setName("jButton57"); // NOI18N
-        jPanel37.add(jButton57);
-        jButton57.setBounds(20, 90, 150, 50);
+        btnempremove.setAction(actionMap.get("presenti")); // NOI18N
+        btnempremove.setFont(resourceMap.getFont("btnempremove.font")); // NOI18N
+        btnempremove.setIcon(resourceMap.getIcon("btnempremove.icon")); // NOI18N
+        btnempremove.setText(resourceMap.getString("btnempremove.text")); // NOI18N
+        btnempremove.setName("btnempremove"); // NOI18N
+        jPanel37.add(btnempremove);
+        btnempremove.setBounds(20, 90, 150, 50);
 
         jPanel29.add(jPanel37);
         jPanel37.setBounds(560, 30, 190, 220);
@@ -5406,7 +5381,7 @@ public class Cloth2View extends FrameView {
     mid.revalidate();
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+    private void cmbgroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbgroupActionPerformed
       /*String select1 = jComboBox1.getSelectedItem().toString();
       String[] comboBoxArray = {"item1","item2","item3"};*/
         int[] term = {5,10,15,33,44,55,66,77,9};
@@ -5422,18 +5397,18 @@ public class Cloth2View extends FrameView {
         }*/
      
      
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+    }//GEN-LAST:event_cmbgroupActionPerformed
 
-    private void jComboBox2FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jComboBox2FocusGained
-       String select1 = jComboBox1.getSelectedItem().toString();
+    private void cmgsubgroupFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_cmgsubgroupFocusGained
+       String select1 = cmbgroup.getSelectedItem().toString();
         String[] menslist = {"Shirt","Pant","T-Shirt","Kurta","Nehru Dress","Half-Pant","Night-Pant","Other"};
         String [] girlslist ={"Dress/Frock","Punjabi","Girl's Top","Pant/Legies","Night/Gown","Scarf/Dupatta","Stole","Other"};
         
        if(select1=="Mens")
-       {   jComboBox2.repaint();
+       {   cmgsubgroup.repaint();
            for(int i = 0; i < menslist.length; i++)
         {
-            jComboBox2.addItem(menslist[i]);
+            cmgsubgroup.addItem(menslist[i]);
         }
            
            
@@ -5441,19 +5416,19 @@ public class Cloth2View extends FrameView {
            
        }
        
-    }//GEN-LAST:event_jComboBox2FocusGained
+    }//GEN-LAST:event_cmgsubgroupFocusGained
 
-    private void jComboBox3FocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jComboBox3FocusGained
+    private void cmbsizeFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_cmbsizeFocusGained
        String[] term = {"one","two","three"};
         // jComboBox2 = new JComboBox();
 
 	for(int i = 0; i < term.length; i++)
         {
 	     
-             jComboBox3.addItem(term[i]);
-             jComboBox2.addItem(term[i]);
+             cmbsize.addItem(term[i]);
+             cmgsubgroup.addItem(term[i]);
         }
-    }//GEN-LAST:event_jComboBox3FocusGained
+    }//GEN-LAST:event_cmbsizeFocusGained
 
     private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
      mid.removeAll();
@@ -5486,9 +5461,9 @@ public class Cloth2View extends FrameView {
     mid.revalidate();   
     }//GEN-LAST:event_jButton27ActionPerformed
 
-    private void jButton55ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton55ActionPerformed
+    private void btnempaddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnempaddActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton55ActionPerformed
+    }//GEN-LAST:event_btnempaddActionPerformed
 
     @Action
     public void supplier() {
@@ -5572,7 +5547,7 @@ public class Cloth2View extends FrameView {
          String message = "Really want to delete ?";
          String title = "Really Delete ?";
         
-         if("".equals(jTextField1.getText()))
+         if("".equals(txtitemid.getText()))
          {
            JOptionPane.showMessageDialog(null, "Search Record First..."," Search First",JOptionPane.ERROR_MESSAGE);  
          } 
@@ -5589,8 +5564,8 @@ public class Cloth2View extends FrameView {
          }
          
          
-         jTextField11.setText("");
-         jTextField1.enable(true);
+         txtscity.setText("");
+         txtitemid.enable(true);
         
     }
 
@@ -5600,7 +5575,7 @@ public class Cloth2View extends FrameView {
          String message = "Record Updated..";
          String title = "Record Updated..";
         
-         if("".equals(jTextField1.getText()))
+         if("".equals(txtitemid.getText()))
          {
            JOptionPane.showMessageDialog(null, "Search Record First..."," Search First",JOptionPane.ERROR_MESSAGE);  
          } 
@@ -5616,8 +5591,8 @@ public class Cloth2View extends FrameView {
          
          }
          
-         jTextField11.setText("");
-         jTextField1.enable(true);
+         txtscity.setText("");
+         txtitemid.enable(true);
          
          }
       
@@ -5637,8 +5612,8 @@ public class Cloth2View extends FrameView {
         
         
         */
-        jTextField1.setText(response);
-        jTextField1.enable(false);
+        txtitemid.setText(response);
+        txtitemid.enable(false);
         
         
     }
@@ -5902,7 +5877,7 @@ public class Cloth2View extends FrameView {
 
     @Action
     public void presenti() {
-        String pre = jComboBox11.getSelectedItem().toString();
+        String pre = cmbemplist.getSelectedItem().toString();
         String already ="";
         already = jTextArea9.getText();
         jTextArea9.setText(already+","+pre);
@@ -5953,30 +5928,73 @@ public class Cloth2View extends FrameView {
     private javax.swing.JPanel SubmiteOrder;
     private javax.swing.JPanel Transport;
     private javax.swing.JPanel addproduct;
+    private javax.swing.JButton btndeletecust;
+    private javax.swing.JButton btndeleteemp;
+    private javax.swing.JButton btndeletepro;
+    private javax.swing.JButton btnempadd;
+    private javax.swing.JButton btnempremove;
+    private javax.swing.JButton btnempsubmit;
+    private javax.swing.JButton btnnewcust;
+    private javax.swing.JButton btnnewemp;
+    private javax.swing.JButton btnnewpro;
+    private javax.swing.JButton btnordadd;
+    private javax.swing.JButton btnorddelete;
+    private javax.swing.JButton btnorddisplay;
+    private javax.swing.JButton btnordedit;
+    private javax.swing.JButton btnordprint;
+    private javax.swing.JButton btnordsubmit;
+    private javax.swing.JButton btnprintorder;
+    private javax.swing.JButton btnsavecust;
+    private javax.swing.JButton btnsaveemp;
+    private javax.swing.JButton btnsavepro;
+    private javax.swing.JButton btnsearchcust;
+    private javax.swing.JButton btnsearchemp;
+    private javax.swing.JButton btnsearchpro;
+    private javax.swing.JButton btnstockprint;
+    private javax.swing.JButton btnstocksubmit;
+    private javax.swing.JButton btnsupdelete;
+    private javax.swing.JButton btnsupnew;
+    private javax.swing.JButton btnsupsave;
+    private javax.swing.JButton btnsupsearch;
+    private javax.swing.JButton btnsupupdate;
+    private javax.swing.JButton btntransdelete;
+    private javax.swing.JButton btntransdetail;
+    private javax.swing.JButton btntransnew;
+    private javax.swing.JButton btntransportdetail;
+    private javax.swing.JButton btntranssave;
+    private javax.swing.JButton btntranssearch;
+    private javax.swing.JButton btntransupdate;
+    private javax.swing.JButton btnupdatecust;
+    private javax.swing.JButton btnupdateemp;
+    private javax.swing.JButton btnupdatepro;
+    private javax.swing.JComboBox cmbcsalution;
+    private javax.swing.JComboBox cmbcsex;
+    private javax.swing.JComboBox cmbemplist;
+    private javax.swing.JComboBox cmbesalution;
+    private javax.swing.JComboBox cmbesex;
+    private javax.swing.JComboBox cmbgroup;
+    private javax.swing.JComboBox cmbmainproduct;
+    private javax.swing.JComboBox cmborderby;
+    private javax.swing.JComboBox cmbordmonth1;
+    private javax.swing.JComboBox cmbordmonth2;
+    private javax.swing.JComboBox cmbremoveproduct;
+    private javax.swing.JComboBox cmbsize;
+    private javax.swing.JComboBox cmbstockgroup;
+    private javax.swing.JComboBox cmbsubproduct;
+    private javax.swing.JComboBox cmdmainproduct;
+    private javax.swing.JComboBox cmdtransportby;
+    private javax.swing.JComboBox cmgsubgroup;
     private javax.swing.JPanel customer;
     private javax.swing.JPanel empattendance;
     private javax.swing.JPanel employee;
     private javax.swing.JPanel homep;
+    private com.toedter.calendar.JDateChooser itemissue;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton100;
-    private javax.swing.JButton jButton101;
-    private javax.swing.JButton jButton102;
-    private javax.swing.JButton jButton103;
     private javax.swing.JButton jButton104;
     private javax.swing.JButton jButton106;
-    private javax.swing.JButton jButton107;
-    private javax.swing.JButton jButton108;
-    private javax.swing.JButton jButton109;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton110;
-    private javax.swing.JButton jButton111;
-    private javax.swing.JButton jButton112;
-    private javax.swing.JButton jButton113;
-    private javax.swing.JButton jButton114;
-    private javax.swing.JButton jButton115;
-    private javax.swing.JButton jButton116;
-    private javax.swing.JButton jButton117;
     private javax.swing.JButton jButton118;
     private javax.swing.JButton jButton119;
     private javax.swing.JButton jButton12;
@@ -5990,8 +6008,6 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
@@ -5999,40 +6015,21 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton46;
     private javax.swing.JButton jButton47;
-    private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton50;
-    private javax.swing.JButton jButton51;
-    private javax.swing.JButton jButton52;
-    private javax.swing.JButton jButton53;
-    private javax.swing.JButton jButton54;
-    private javax.swing.JButton jButton55;
-    private javax.swing.JButton jButton56;
-    private javax.swing.JButton jButton57;
-    private javax.swing.JButton jButton58;
-    private javax.swing.JButton jButton59;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton60;
     private javax.swing.JButton jButton61;
     private javax.swing.JButton jButton63;
-    private javax.swing.JButton jButton64;
     private javax.swing.JButton jButton66;
     private javax.swing.JButton jButton67;
     private javax.swing.JButton jButton68;
     private javax.swing.JButton jButton69;
     private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton72;
-    private javax.swing.JButton jButton76;
     private javax.swing.JButton jButton77;
     private javax.swing.JButton jButton78;
     private javax.swing.JButton jButton79;
     private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton80;
-    private javax.swing.JButton jButton81;
-    private javax.swing.JButton jButton82;
     private javax.swing.JButton jButton83;
     private javax.swing.JButton jButton84;
     private javax.swing.JButton jButton85;
@@ -6045,33 +6042,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton91;
     private javax.swing.JButton jButton92;
     private javax.swing.JButton jButton93;
-    private javax.swing.JButton jButton94;
-    private javax.swing.JButton jButton95;
-    private javax.swing.JButton jButton96;
-    private javax.swing.JButton jButton97;
-    private javax.swing.JButton jButton98;
-    private javax.swing.JButton jButton99;
-    private javax.swing.JComboBox jComboBox1;
-    private javax.swing.JComboBox jComboBox10;
-    private javax.swing.JComboBox jComboBox11;
-    private javax.swing.JComboBox jComboBox12;
-    private javax.swing.JComboBox jComboBox17;
-    private javax.swing.JComboBox jComboBox18;
-    private javax.swing.JComboBox jComboBox19;
-    private javax.swing.JComboBox jComboBox2;
-    private javax.swing.JComboBox jComboBox21;
-    private javax.swing.JComboBox jComboBox22;
-    private javax.swing.JComboBox jComboBox23;
-    private javax.swing.JComboBox jComboBox3;
-    private javax.swing.JComboBox jComboBox5;
-    private javax.swing.JComboBox jComboBox6;
-    private javax.swing.JComboBox jComboBox7;
-    private javax.swing.JComboBox jComboBox8;
-    private javax.swing.JComboBox jComboBox9;
-    private com.toedter.calendar.JDateChooser jDateChooser2;
     private com.toedter.calendar.JDateChooser jDateChooser3;
-    private com.toedter.calendar.JDateChooser jDateChooser4;
-    private com.toedter.calendar.JDateChooser jDateChooser5;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -6351,66 +6322,17 @@ public class Cloth2View extends FrameView {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
-    private javax.swing.JTextArea jTextArea1;
-    private javax.swing.JTextArea jTextArea2;
-    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
-    private javax.swing.JTextArea jTextArea5;
-    private javax.swing.JTextArea jTextArea6;
-    private javax.swing.JTextArea jTextArea8;
     private javax.swing.JTextArea jTextArea9;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField10;
-    private javax.swing.JTextField jTextField11;
-    private javax.swing.JTextField jTextField12;
-    private javax.swing.JTextField jTextField13;
-    private javax.swing.JTextField jTextField14;
-    private javax.swing.JTextField jTextField15;
-    private javax.swing.JTextField jTextField16;
-    private javax.swing.JTextField jTextField17;
-    private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField23;
-    private javax.swing.JTextField jTextField24;
-    private javax.swing.JTextField jTextField25;
-    private javax.swing.JTextField jTextField26;
-    private javax.swing.JTextField jTextField27;
-    private javax.swing.JTextField jTextField28;
-    private javax.swing.JTextField jTextField29;
-    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField30;
     private javax.swing.JTextField jTextField31;
     private javax.swing.JTextField jTextField32;
-    private javax.swing.JTextField jTextField34;
-    private javax.swing.JTextField jTextField35;
-    private javax.swing.JTextField jTextField36;
-    private javax.swing.JTextField jTextField37;
-    private javax.swing.JTextField jTextField38;
-    private javax.swing.JTextField jTextField39;
-    private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField40;
     private javax.swing.JTextField jTextField41;
-    private javax.swing.JTextField jTextField42;
-    private javax.swing.JTextField jTextField43;
     private javax.swing.JTextField jTextField44;
     private javax.swing.JTextField jTextField45;
-    private javax.swing.JTextField jTextField46;
     private javax.swing.JTextField jTextField47;
-    private javax.swing.JTextField jTextField48;
-    private javax.swing.JTextField jTextField49;
-    private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField50;
-    private javax.swing.JTextField jTextField51;
     private javax.swing.JTextField jTextField52;
-    private javax.swing.JTextField jTextField53;
-    private javax.swing.JTextField jTextField54;
-    private javax.swing.JTextField jTextField55;
-    private javax.swing.JTextField jTextField58;
-    private javax.swing.JTextField jTextField59;
-    private javax.swing.JTextField jTextField6;
     private javax.swing.JTextField jTextField60;
     private javax.swing.JTextField jTextField61;
     private javax.swing.JTextField jTextField62;
@@ -6419,20 +6341,9 @@ public class Cloth2View extends FrameView {
     private javax.swing.JTextField jTextField66;
     private javax.swing.JTextField jTextField67;
     private javax.swing.JTextField jTextField74;
-    private javax.swing.JTextField jTextField75;
-    private javax.swing.JTextField jTextField76;
-    private javax.swing.JTextField jTextField77;
-    private javax.swing.JTextField jTextField78;
-    private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField80;
     private javax.swing.JTextField jTextField81;
-    private javax.swing.JTextField jTextField82;
-    private javax.swing.JTextField jTextField83;
-    private javax.swing.JTextField jTextField84;
-    private javax.swing.JTextField jTextField86;
-    private javax.swing.JTextField jTextField87;
     private javax.swing.JTextField jTextField88;
-    private javax.swing.JTextField jTextField9;
     private javax.swing.JTextField jTextField91;
     private javax.swing.JTextField jTextField92;
     private javax.swing.JTextField jTextField93;
@@ -6455,6 +6366,68 @@ public class Cloth2View extends FrameView {
     private javax.swing.JPanel statusPanel;
     private javax.swing.JPanel supplier;
     private javax.swing.JPanel supplierpayment;
+    private javax.swing.JTextField txtaddproduct;
+    private javax.swing.JTextField txtbrand;
+    private javax.swing.JTextArea txtcaddress;
+    private javax.swing.JTextField txtccity;
+    private com.toedter.calendar.JDateChooser txtcdate;
+    private javax.swing.JTextField txtcfirstname;
+    private javax.swing.JTextField txtclastname;
+    private javax.swing.JTextField txtcmob;
+    private javax.swing.JTextField txtcpin;
+    private javax.swing.JTextField txtcustid;
+    private javax.swing.JTextArea txtdescription;
+    private javax.swing.JTextField txtdiscount;
+    private javax.swing.JTextField txtdrivemob;
+    private javax.swing.JTextField txtdrivename;
+    private javax.swing.JTextField txtdriveroute;
+    private javax.swing.JTextArea txteaddress;
+    private javax.swing.JTextField txtecity;
+    private javax.swing.JTextField txtefirstname;
+    private javax.swing.JTextField txteid;
+    private com.toedter.calendar.JDateChooser txtejoin;
+    private javax.swing.JTextField txtelastname;
+    private javax.swing.JTextField txtemob;
+    private javax.swing.JTextField txtepin;
+    private javax.swing.JTextField txtesalary;
+    private javax.swing.JTextField txteshift;
+    private javax.swing.JTextField txtitemid;
+    private javax.swing.JTextField txtitemname;
+    private javax.swing.JTextField txtordid;
+    private javax.swing.JTextField txtordname;
+    private javax.swing.JTextField txtordquantity;
+    private javax.swing.JTextField txtordsubtotal;
+    private javax.swing.JTextField txtordsupid;
+    private javax.swing.JTextField txtordsupname;
+    private javax.swing.JTextField txtordtotal;
+    private javax.swing.JTextField txtpurchaseprice;
+    private javax.swing.JTextArea txtsaddress;
+    private javax.swing.JTextField txtsbranch;
+    private javax.swing.JTextField txtsbrand;
+    private javax.swing.JTextField txtscity;
+    private javax.swing.JTextField txtscontactper;
+    private javax.swing.JTextField txtsellingprice;
+    private javax.swing.JTextField txtsid;
+    private javax.swing.JTextField txtsmob;
+    private javax.swing.JTextField txtsname;
+    private javax.swing.JTextField txtssubbrand;
+    private javax.swing.JTextField txtstockbrand;
+    private javax.swing.JTextField txtstocktype;
+    private javax.swing.JTextField txtsubproduct;
+    private javax.swing.JTextArea txtsupadress;
+    private javax.swing.JTextField txtsupid;
+    private javax.swing.JTextField txtsupname;
+    private javax.swing.JTextArea txttransaddress;
+    private javax.swing.JTextField txttransbranch;
+    private javax.swing.JTextField txttranscity;
+    private javax.swing.JTextField txttransid;
+    private javax.swing.JTextField txttransmanager;
+    private javax.swing.JTextField txttransmob;
+    private javax.swing.JTextField txttransname;
+    private javax.swing.JTextField txttransportid;
+    private javax.swing.JTextField txttransportname;
+    private javax.swing.JTextField txtvscity;
+    private javax.swing.JTextField txtvsregno;
     private javax.swing.JPanel userp;
     // End of variables declaration//GEN-END:variables
 
