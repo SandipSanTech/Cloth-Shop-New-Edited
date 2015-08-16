@@ -188,6 +188,7 @@ public class Cloth2View extends FrameView {
         jLabel117 = new javax.swing.JLabel();
         jLabel118 = new javax.swing.JLabel();
         jButton88 = new javax.swing.JButton();
+        jLabel124 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         addproduct = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
@@ -249,27 +250,12 @@ public class Cloth2View extends FrameView {
         jTextField13 = new javax.swing.JTextField();
         jLabel47 = new javax.swing.JLabel();
         jTextField14 = new javax.swing.JTextField();
-        jPanel8 = new javax.swing.JPanel();
-        jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
-        jButton38 = new javax.swing.JButton();
-        jPanel9 = new javax.swing.JPanel();
-        jLabel53 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jLabel55 = new javax.swing.JLabel();
-        jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
-        jTextField19 = new javax.swing.JTextField();
-        jTextField20 = new javax.swing.JTextField();
-        jLabel59 = new javax.swing.JLabel();
-        jTextField21 = new javax.swing.JTextField();
-        jComboBox4 = new javax.swing.JComboBox();
-        jTextField22 = new javax.swing.JTextField();
+        jPanel33 = new javax.swing.JPanel();
+        jButton99 = new javax.swing.JButton();
+        jButton101 = new javax.swing.JButton();
+        jButton102 = new javax.swing.JButton();
+        jButton103 = new javax.swing.JButton();
+        jButton107 = new javax.swing.JButton();
         jLabel51 = new javax.swing.JLabel();
         SubmiteOrder = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
@@ -354,14 +340,12 @@ public class Cloth2View extends FrameView {
         jTextField44 = new javax.swing.JTextField();
         jTextField45 = new javax.swing.JTextField();
         jTextField47 = new javax.swing.JTextField();
-        jPanel15 = new javax.swing.JPanel();
-        jButton39 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
-        jButton44 = new javax.swing.JButton();
-        jButton45 = new javax.swing.JButton();
+        jPanel62 = new javax.swing.JPanel();
+        jButton113 = new javax.swing.JButton();
+        jButton114 = new javax.swing.JButton();
+        jButton115 = new javax.swing.JButton();
+        jButton116 = new javax.swing.JButton();
+        jButton117 = new javax.swing.JButton();
         jLabel95 = new javax.swing.JLabel();
         Transport = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
@@ -907,7 +891,7 @@ public class Cloth2View extends FrameView {
         jLabel39.setText(resourceMap.getString("jLabel39.text")); // NOI18N
         jLabel39.setName("jLabel39"); // NOI18N
         homep.add(jLabel39);
-        jLabel39.setBounds(0, 0, 1160, 530);
+        jLabel39.setBounds(0, 0, 1150, 530);
 
         mid.add(homep, "card2");
 
@@ -1084,10 +1068,17 @@ public class Cloth2View extends FrameView {
         jLabel118.setBounds(350, 410, 141, 30);
 
         jButton88.setAction(actionMap.get("suplierpayment")); // NOI18N
+        jButton88.setIcon(resourceMap.getIcon("jButton88.icon")); // NOI18N
         jButton88.setText(resourceMap.getString("jButton88.text")); // NOI18N
         jButton88.setName("jButton88"); // NOI18N
         supplier.add(jButton88);
-        jButton88.setBounds(720, 260, 160, 140);
+        jButton88.setBounds(720, 250, 160, 140);
+
+        jLabel124.setFont(resourceMap.getFont("jLabel124.font")); // NOI18N
+        jLabel124.setText(resourceMap.getString("jLabel124.text")); // NOI18N
+        jLabel124.setName("jLabel124"); // NOI18N
+        supplier.add(jLabel124);
+        jLabel124.setBounds(710, 390, 262, 60);
 
         jLabel16.setIcon(resourceMap.getIcon("jLabel16.icon")); // NOI18N
         jLabel16.setText(resourceMap.getString("jLabel16.text")); // NOI18N
@@ -1491,7 +1482,7 @@ public class Cloth2View extends FrameView {
                 .addContainerGap(15, Short.MAX_VALUE))
         );
 
-        AddSuplier.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 10, 390, 180));
+        AddSuplier.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 10, 390, 180));
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(null, resourceMap.getString("jPanel2.border.title"), javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP)); // NOI18N
         jPanel2.setToolTipText(resourceMap.getString("jPanel2.toolTipText")); // NOI18N
@@ -1680,223 +1671,69 @@ public class Cloth2View extends FrameView {
 
         AddSuplier.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 520, 420));
 
-        jPanel8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel8.setName("jPanel8"); // NOI18N
-        jPanel8.setOpaque(false);
-        jPanel8.setPreferredSize(new java.awt.Dimension(35, 50));
+        jPanel33.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        jPanel33.setName("jPanel33"); // NOI18N
+        jPanel33.setOpaque(false);
 
-        jButton32.setFont(resourceMap.getFont("jButton32.font")); // NOI18N
-        jButton32.setIcon(resourceMap.getIcon("jButton32.icon")); // NOI18N
-        jButton32.setText(resourceMap.getString("jButton32.text")); // NOI18N
-        jButton32.setName("jButton32"); // NOI18N
-        jButton32.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton99.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        jButton99.setIcon(resourceMap.getIcon("jButton99.icon")); // NOI18N
+        jButton99.setText(resourceMap.getString("jButton99.text")); // NOI18N
+        jButton99.setName("jButton99"); // NOI18N
 
-        jButton33.setFont(resourceMap.getFont("jButton33.font")); // NOI18N
-        jButton33.setIcon(resourceMap.getIcon("jButton33.icon")); // NOI18N
-        jButton33.setText(resourceMap.getString("jButton33.text")); // NOI18N
-        jButton33.setName("jButton33"); // NOI18N
-        jButton33.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton101.setAction(actionMap.get("itemsearch")); // NOI18N
+        jButton101.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        jButton101.setIcon(resourceMap.getIcon("jButton101.icon")); // NOI18N
+        jButton101.setText(resourceMap.getString("jButton101.text")); // NOI18N
+        jButton101.setName("jButton101"); // NOI18N
 
-        jButton34.setFont(resourceMap.getFont("jButton34.font")); // NOI18N
-        jButton34.setIcon(resourceMap.getIcon("jButton34.icon")); // NOI18N
-        jButton34.setText(resourceMap.getString("jButton34.text")); // NOI18N
-        jButton34.setName("jButton34"); // NOI18N
-        jButton34.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton102.setAction(actionMap.get("update")); // NOI18N
+        jButton102.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        jButton102.setIcon(resourceMap.getIcon("jButton102.icon")); // NOI18N
+        jButton102.setText(resourceMap.getString("jButton102.text")); // NOI18N
+        jButton102.setName("jButton102"); // NOI18N
 
-        jButton35.setFont(resourceMap.getFont("jButton35.font")); // NOI18N
-        jButton35.setIcon(resourceMap.getIcon("jButton35.icon")); // NOI18N
-        jButton35.setText(resourceMap.getString("jButton35.text")); // NOI18N
-        jButton35.setActionCommand(resourceMap.getString("jButton35.actionCommand")); // NOI18N
-        jButton35.setName("jButton35"); // NOI18N
-        jButton35.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton103.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        jButton103.setIcon(resourceMap.getIcon("jButton103.icon")); // NOI18N
+        jButton103.setText(resourceMap.getString("jButton103.text")); // NOI18N
+        jButton103.setName("jButton103"); // NOI18N
 
-        jButton36.setFont(resourceMap.getFont("jButton36.font")); // NOI18N
-        jButton36.setIcon(resourceMap.getIcon("jButton36.icon")); // NOI18N
-        jButton36.setText(resourceMap.getString("jButton36.text")); // NOI18N
-        jButton36.setName("jButton36"); // NOI18N
-        jButton36.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton107.setAction(actionMap.get("deleteproduct")); // NOI18N
+        jButton107.setFont(resourceMap.getFont("jButton103.font")); // NOI18N
+        jButton107.setIcon(resourceMap.getIcon("jButton107.icon")); // NOI18N
+        jButton107.setText(resourceMap.getString("jButton107.text")); // NOI18N
+        jButton107.setName("jButton107"); // NOI18N
 
-        jButton37.setFont(resourceMap.getFont("jButton37.font")); // NOI18N
-        jButton37.setIcon(resourceMap.getIcon("jButton37.icon")); // NOI18N
-        jButton37.setText(resourceMap.getString("jButton37.text")); // NOI18N
-        jButton37.setName("jButton37"); // NOI18N
-        jButton37.setPreferredSize(new java.awt.Dimension(40, 50));
-
-        jButton38.setFont(resourceMap.getFont("jButton38.font")); // NOI18N
-        jButton38.setIcon(resourceMap.getIcon("jButton38.icon")); // NOI18N
-        jButton38.setText(resourceMap.getString("jButton38.text")); // NOI18N
-        jButton38.setName("jButton38"); // NOI18N
-        jButton38.setPreferredSize(new java.awt.Dimension(40, 50));
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton32, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
-                .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
-                .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(41, 41, 41)
-                .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
-                .addComponent(jButton36, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
+                .addComponent(jButton103, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton99, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton101, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton107, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton102, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(19, Short.MAX_VALUE))
         );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton38, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton33, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton32, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton99, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton101, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton102, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton103, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton107, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
-        AddSuplier.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 980, 80));
-
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, resourceMap.getString("jPanel9.border.title"), javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP)); // NOI18N
-        jPanel9.setName("jPanel9"); // NOI18N
-        jPanel9.setOpaque(false);
-
-        jLabel53.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
-        jLabel53.setText(resourceMap.getString("jLabel53.text")); // NOI18N
-        jLabel53.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel53.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel53.setName("jLabel53"); // NOI18N
-
-        jLabel54.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
-        jLabel54.setText(resourceMap.getString("jLabel54.text")); // NOI18N
-        jLabel54.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel54.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel54.setName("jLabel54"); // NOI18N
-
-        jLabel55.setFont(resourceMap.getFont("jLabel55.font")); // NOI18N
-        jLabel55.setText(resourceMap.getString("jLabel55.text")); // NOI18N
-        jLabel55.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel55.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel55.setName("jLabel55"); // NOI18N
-
-        jLabel56.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
-        jLabel56.setText(resourceMap.getString("jLabel56.text")); // NOI18N
-        jLabel56.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel56.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel56.setName("jLabel56"); // NOI18N
-
-        jLabel57.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
-        jLabel57.setText(resourceMap.getString("jLabel57.text")); // NOI18N
-        jLabel57.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel57.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel57.setName("jLabel57"); // NOI18N
-
-        jLabel58.setFont(resourceMap.getFont("jLabel58.font")); // NOI18N
-        jLabel58.setText(resourceMap.getString("jLabel58.text")); // NOI18N
-        jLabel58.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel58.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel58.setName("jLabel58"); // NOI18N
-
-        jTextField19.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField19.setDisabledTextColor(resourceMap.getColor("jTextField19.disabledTextColor")); // NOI18N
-        jTextField19.setName("jTextField19"); // NOI18N
-        jTextField19.setPreferredSize(new java.awt.Dimension(65, 30));
-
-        jTextField20.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField20.setDisabledTextColor(resourceMap.getColor("jTextField20.disabledTextColor")); // NOI18N
-        jTextField20.setName("jTextField20"); // NOI18N
-        jTextField20.setPreferredSize(new java.awt.Dimension(65, 30));
-
-        jLabel59.setFont(resourceMap.getFont("jLabel50.font")); // NOI18N
-        jLabel59.setText(resourceMap.getString("jLabel59.text")); // NOI18N
-        jLabel59.setMaximumSize(new java.awt.Dimension(65, 35));
-        jLabel59.setMinimumSize(new java.awt.Dimension(65, 35));
-        jLabel59.setName("jLabel59"); // NOI18N
-
-        jTextField21.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField21.setDisabledTextColor(resourceMap.getColor("jTextField21.disabledTextColor")); // NOI18N
-        jTextField21.setName("jTextField21"); // NOI18N
-        jTextField21.setPreferredSize(new java.awt.Dimension(65, 30));
-
-        jComboBox4.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Credit", "Cash" }));
-        jComboBox4.setName("jComboBox4"); // NOI18N
-
-        jTextField22.setFont(resourceMap.getFont("jTextField10.font")); // NOI18N
-        jTextField22.setName("jTextField22"); // NOI18N
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel58, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel56, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 174, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField20, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel59, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 71, Short.MAX_VALUE)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextField22, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextField21, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap())
-        );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel53, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel54, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel56, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel59, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel57, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
-                .addComponent(jLabel58, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel55, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        AddSuplier.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 200, 390, 220));
+        AddSuplier.add(jPanel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 430, 850, 80));
 
         jLabel51.setIcon(resourceMap.getIcon("jLabel51.icon")); // NOI18N
         jLabel51.setText(resourceMap.getString("jLabel51.text")); // NOI18N
@@ -2322,15 +2159,13 @@ public class Cloth2View extends FrameView {
                     .addComponent(jTextField43, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jButton54, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton54, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
                     .addComponent(jButton49, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap())
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
-        DisplayOrderDetails.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 420, 260));
+        DisplayOrderDetails.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 420, 280));
 
         jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(null, resourceMap.getString("jPanel7.border.title"), javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP)); // NOI18N
         jPanel7.setName("jPanel7"); // NOI18N
@@ -2599,7 +2434,7 @@ public class Cloth2View extends FrameView {
                 .addContainerGap(18, Short.MAX_VALUE))
         );
 
-        AddTransport.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 520, 400));
+        AddTransport.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 520, 400));
 
         jPanel20.setBorder(javax.swing.BorderFactory.createTitledBorder(null, resourceMap.getString("jPanel20.border.title"), javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP)); // NOI18N
         jPanel20.setName("jPanel20"); // NOI18N
@@ -2734,91 +2569,69 @@ public class Cloth2View extends FrameView {
 
         AddTransport.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 200, 390, 220));
 
-        jPanel15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel15.setName("jPanel15"); // NOI18N
-        jPanel15.setOpaque(false);
-        jPanel15.setPreferredSize(new java.awt.Dimension(35, 50));
+        jPanel62.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(0, 0, 0)));
+        jPanel62.setName("jPanel62"); // NOI18N
+        jPanel62.setOpaque(false);
 
-        jButton39.setFont(resourceMap.getFont("jButton39.font")); // NOI18N
-        jButton39.setIcon(resourceMap.getIcon("jButton39.icon")); // NOI18N
-        jButton39.setText(resourceMap.getString("jButton39.text")); // NOI18N
-        jButton39.setName("jButton39"); // NOI18N
-        jButton39.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton113.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        jButton113.setIcon(resourceMap.getIcon("jButton113.icon")); // NOI18N
+        jButton113.setText(resourceMap.getString("jButton113.text")); // NOI18N
+        jButton113.setName("jButton113"); // NOI18N
 
-        jButton40.setFont(resourceMap.getFont("jButton40.font")); // NOI18N
-        jButton40.setIcon(resourceMap.getIcon("jButton40.icon")); // NOI18N
-        jButton40.setText(resourceMap.getString("jButton40.text")); // NOI18N
-        jButton40.setName("jButton40"); // NOI18N
-        jButton40.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton114.setAction(actionMap.get("itemsearch")); // NOI18N
+        jButton114.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        jButton114.setIcon(resourceMap.getIcon("jButton114.icon")); // NOI18N
+        jButton114.setText(resourceMap.getString("jButton114.text")); // NOI18N
+        jButton114.setName("jButton114"); // NOI18N
 
-        jButton41.setFont(resourceMap.getFont("jButton41.font")); // NOI18N
-        jButton41.setIcon(resourceMap.getIcon("jButton41.icon")); // NOI18N
-        jButton41.setText(resourceMap.getString("jButton41.text")); // NOI18N
-        jButton41.setName("jButton41"); // NOI18N
-        jButton41.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton115.setAction(actionMap.get("update")); // NOI18N
+        jButton115.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        jButton115.setIcon(resourceMap.getIcon("jButton115.icon")); // NOI18N
+        jButton115.setText(resourceMap.getString("jButton115.text")); // NOI18N
+        jButton115.setName("jButton115"); // NOI18N
 
-        jButton42.setFont(resourceMap.getFont("jButton42.font")); // NOI18N
-        jButton42.setIcon(resourceMap.getIcon("jButton42.icon")); // NOI18N
-        jButton42.setText(resourceMap.getString("jButton42.text")); // NOI18N
-        jButton42.setActionCommand(resourceMap.getString("jButton42.actionCommand")); // NOI18N
-        jButton42.setName("jButton42"); // NOI18N
-        jButton42.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton116.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        jButton116.setIcon(resourceMap.getIcon("jButton116.icon")); // NOI18N
+        jButton116.setText(resourceMap.getString("jButton116.text")); // NOI18N
+        jButton116.setName("jButton116"); // NOI18N
 
-        jButton43.setFont(resourceMap.getFont("jButton43.font")); // NOI18N
-        jButton43.setIcon(resourceMap.getIcon("jButton43.icon")); // NOI18N
-        jButton43.setText(resourceMap.getString("jButton43.text")); // NOI18N
-        jButton43.setName("jButton43"); // NOI18N
-        jButton43.setPreferredSize(new java.awt.Dimension(40, 50));
+        jButton117.setAction(actionMap.get("deleteproduct")); // NOI18N
+        jButton117.setFont(resourceMap.getFont("jButton113.font")); // NOI18N
+        jButton117.setIcon(resourceMap.getIcon("jButton117.icon")); // NOI18N
+        jButton117.setText(resourceMap.getString("jButton117.text")); // NOI18N
+        jButton117.setName("jButton117"); // NOI18N
 
-        jButton44.setFont(resourceMap.getFont("jButton44.font")); // NOI18N
-        jButton44.setIcon(resourceMap.getIcon("jButton44.icon")); // NOI18N
-        jButton44.setText(resourceMap.getString("jButton44.text")); // NOI18N
-        jButton44.setName("jButton44"); // NOI18N
-        jButton44.setPreferredSize(new java.awt.Dimension(40, 50));
-
-        jButton45.setFont(resourceMap.getFont("jButton45.font")); // NOI18N
-        jButton45.setIcon(resourceMap.getIcon("jButton45.icon")); // NOI18N
-        jButton45.setText(resourceMap.getString("jButton45.text")); // NOI18N
-        jButton45.setName("jButton45"); // NOI18N
-        jButton45.setPreferredSize(new java.awt.Dimension(40, 50));
-
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel62Layout = new javax.swing.GroupLayout(jPanel62);
+        jPanel62.setLayout(jPanel62Layout);
+        jPanel62Layout.setHorizontalGroup(
+            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel62Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jButton39, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
-                .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
-                .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(41, 41, 41)
-                .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
-                .addComponent(jButton43, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
-                .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
+                .addComponent(jButton116, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton113, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton114, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton117, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jButton115, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(19, Short.MAX_VALUE))
         );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton42, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton43, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton41, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton45, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton40, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton44, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        jPanel62Layout.setVerticalGroup(
+            jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel62Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel62Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton113, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton114, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton115, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton116, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jButton117, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
-        AddTransport.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, 980, 80));
+        AddTransport.add(jPanel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 440, 850, 80));
 
         jLabel95.setIcon(resourceMap.getIcon("jLabel95.icon")); // NOI18N
         jLabel95.setName("jLabel95"); // NOI18N
@@ -2963,13 +2776,14 @@ public class Cloth2View extends FrameView {
                         .addComponent(jTextField49, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(jTextField48, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton72, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton48, javax.swing.GroupLayout.Alignment.TRAILING)))
+                    .addComponent(jButton72, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton48))
+                .addGap(0, 20, Short.MAX_VALUE))
         );
 
-        DisplayTransportDetails.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 20, 420, 200));
+        DisplayTransportDetails.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 20, 420, 220));
 
         jPanel23.setBorder(javax.swing.BorderFactory.createTitledBorder(null, resourceMap.getString("jPanel23.border.title"), javax.swing.border.TitledBorder.LEFT, javax.swing.border.TitledBorder.TOP)); // NOI18N
         jPanel23.setName("jPanel23"); // NOI18N
@@ -2983,10 +2797,10 @@ public class Cloth2View extends FrameView {
         );
         jPanel23Layout.setVerticalGroup(
             jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 277, Short.MAX_VALUE)
+            .addGap(0, 237, Short.MAX_VALUE)
         );
 
-        DisplayTransportDetails.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 220, 1000, 300));
+        DisplayTransportDetails.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, 1000, 260));
 
         jLabel103.setIcon(resourceMap.getIcon("jLabel103.icon")); // NOI18N
         jLabel103.setName("jLabel103"); // NOI18N
@@ -3057,7 +2871,7 @@ public class Cloth2View extends FrameView {
                             .addComponent(jTextField31, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(50, 50, 50))
             .addGroup(jPanel32Layout.createSequentialGroup()
-                .addGap(163, 163, 163)
+                .addGap(107, 107, 107)
                 .addComponent(jButton100, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -3079,15 +2893,16 @@ public class Cloth2View extends FrameView {
                         .addComponent(jTextField31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jTextField60, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton100, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(23, 23, 23))
         );
 
         Deposite.add(jPanel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 340, 210));
 
         jPanel34.setName("jPanel34"); // NOI18N
 
+        jButton79.setIcon(resourceMap.getIcon("jButton79.icon")); // NOI18N
         jButton79.setText(resourceMap.getString("jButton79.text")); // NOI18N
         jButton79.setName("jButton79"); // NOI18N
 
@@ -3226,14 +3041,17 @@ public class Cloth2View extends FrameView {
         jTextField65.setName("jTextField65"); // NOI18N
 
         jButton63.setFont(resourceMap.getFont("jButton63.font")); // NOI18N
+        jButton63.setIcon(resourceMap.getIcon("jButton63.icon")); // NOI18N
         jButton63.setText(resourceMap.getString("jButton63.text")); // NOI18N
         jButton63.setName("jButton63"); // NOI18N
 
         jButton77.setFont(resourceMap.getFont("jButton77.font")); // NOI18N
+        jButton77.setIcon(resourceMap.getIcon("jButton77.icon")); // NOI18N
         jButton77.setText(resourceMap.getString("jButton77.text")); // NOI18N
         jButton77.setName("jButton77"); // NOI18N
 
         jButton78.setFont(resourceMap.getFont("jButton78.font")); // NOI18N
+        jButton78.setIcon(resourceMap.getIcon("jButton78.icon")); // NOI18N
         jButton78.setText(resourceMap.getString("jButton78.text")); // NOI18N
         jButton78.setName("jButton78"); // NOI18N
 
@@ -3256,10 +3074,10 @@ public class Cloth2View extends FrameView {
                         .addComponent(jTextField64, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel41Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(76, 76, 76))
+                        .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton63)))
+                .addGap(63, 63, 63))
         );
         jPanel41Layout.setVerticalGroup(
             jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3275,12 +3093,12 @@ public class Cloth2View extends FrameView {
                         .addComponent(jLabel128)
                         .addGap(18, 18, 18)
                         .addComponent(jLabel129)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 54, Short.MAX_VALUE)
-                .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                .addGroup(jPanel41Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton78, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton77, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton63, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
 
         Deposite.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 10, 340, 210));
@@ -5183,6 +5001,7 @@ public class Cloth2View extends FrameView {
         jPanel42.setName("jPanel42"); // NOI18N
         jPanel42.setOpaque(false);
 
+        jButton84.setIcon(resourceMap.getIcon("jButton84.icon")); // NOI18N
         jButton84.setText(resourceMap.getString("jButton84.text")); // NOI18N
         jButton84.setName("jButton84"); // NOI18N
 
@@ -5358,6 +5177,7 @@ public class Cloth2View extends FrameView {
         jTextField93.setPreferredSize(new java.awt.Dimension(65, 30));
 
         jButton106.setFont(resourceMap.getFont("jButton106.font")); // NOI18N
+        jButton106.setIcon(resourceMap.getIcon("jButton106.icon")); // NOI18N
         jButton106.setText(resourceMap.getString("jButton106.text")); // NOI18N
         jButton106.setName("jButton106"); // NOI18N
 
@@ -5377,9 +5197,12 @@ public class Cloth2View extends FrameView {
                     .addGroup(jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jTextField91, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jTextField92, javax.swing.GroupLayout.PREFERRED_SIZE, 173, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTextField93, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton106, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jTextField93, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(71, 71, 71))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel60Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton106, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(112, 112, 112))
         );
         jPanel60Layout.setVerticalGroup(
             jPanel60Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5398,10 +5221,10 @@ public class Cloth2View extends FrameView {
                         .addGap(6, 6, 6)
                         .addComponent(jTextField92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jTextField93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jButton106, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jTextField93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton106)
+                .addContainerGap())
         );
 
         supplierpayment.add(jPanel60);
@@ -5424,16 +5247,22 @@ public class Cloth2View extends FrameView {
         jTextField63.setName("jTextField63"); // NOI18N
 
         jButton85.setFont(resourceMap.getFont("jButton85.font")); // NOI18N
+        jButton85.setIcon(resourceMap.getIcon("jButton85.icon")); // NOI18N
         jButton85.setText(resourceMap.getString("jButton85.text")); // NOI18N
         jButton85.setName("jButton85"); // NOI18N
+        jButton85.setPreferredSize(new java.awt.Dimension(30, 30));
 
         jButton86.setFont(resourceMap.getFont("jButton86.font")); // NOI18N
+        jButton86.setIcon(resourceMap.getIcon("jButton86.icon")); // NOI18N
         jButton86.setText(resourceMap.getString("jButton86.text")); // NOI18N
         jButton86.setName("jButton86"); // NOI18N
+        jButton86.setPreferredSize(new java.awt.Dimension(30, 30));
 
         jButton87.setFont(resourceMap.getFont("jButton87.font")); // NOI18N
+        jButton87.setIcon(resourceMap.getIcon("jButton87.icon")); // NOI18N
         jButton87.setText(resourceMap.getString("jButton87.text")); // NOI18N
         jButton87.setName("jButton87"); // NOI18N
+        jButton87.setPreferredSize(new java.awt.Dimension(30, 30));
 
         javax.swing.GroupLayout jPanel61Layout = new javax.swing.GroupLayout(jPanel61);
         jPanel61.setLayout(jPanel61Layout);
@@ -5444,20 +5273,21 @@ public class Cloth2View extends FrameView {
                 .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGap(0, 8, Short.MAX_VALUE)
                         .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel120, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel132, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jTextField63, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jTextField62, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel61Layout.createSequentialGroup()
+                        .addGroup(jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextField63, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField62, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(87, 87, 87))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel61Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
-                        .addComponent(jButton86, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(76, 76, 76))
+                        .addComponent(jButton86, javax.swing.GroupLayout.DEFAULT_SIZE, 97, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton85, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))))
         );
         jPanel61Layout.setVerticalGroup(
             jPanel61Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -5495,19 +5325,21 @@ public class Cloth2View extends FrameView {
         jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton61.setAction(actionMap.get("backback")); // NOI18N
+        jButton61.setFont(resourceMap.getFont("jButton61.font")); // NOI18N
+        jButton61.setIcon(resourceMap.getIcon("jButton61.icon")); // NOI18N
         jButton61.setText(resourceMap.getString("jButton61.text")); // NOI18N
         jButton61.setName("jButton61"); // NOI18N
-        jPanel14.add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 0, 100, 70));
+        jPanel14.add(jButton61, new org.netbeans.lib.awtextra.AbsoluteConstraints(1230, 10, 150, 70));
 
         jButton89.setAction(actionMap.get("osk")); // NOI18N
         jButton89.setIcon(resourceMap.getIcon("jButton89.icon")); // NOI18N
         jButton89.setName("jButton89"); // NOI18N
-        jPanel14.add(jButton89, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 0, 130, 70));
+        jPanel14.add(jButton89, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 10, 130, 70));
 
         jLabel60.setIcon(resourceMap.getIcon("lbl.icon")); // NOI18N
         jLabel60.setText(resourceMap.getString("lbl.text")); // NOI18N
         jLabel60.setName("lbl"); // NOI18N
-        jPanel14.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, 0, 1510, 77));
+        jPanel14.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(-120, 0, 1510, 90));
 
         javax.swing.GroupLayout mainPanelLayout = new javax.swing.GroupLayout(mainPanel);
         mainPanel.setLayout(mainPanelLayout);
@@ -6182,15 +6014,24 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton100;
+    private javax.swing.JButton jButton101;
+    private javax.swing.JButton jButton102;
+    private javax.swing.JButton jButton103;
     private javax.swing.JButton jButton104;
     private javax.swing.JButton jButton105;
     private javax.swing.JButton jButton106;
+    private javax.swing.JButton jButton107;
     private javax.swing.JButton jButton108;
     private javax.swing.JButton jButton109;
     private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton110;
     private javax.swing.JButton jButton111;
     private javax.swing.JButton jButton112;
+    private javax.swing.JButton jButton113;
+    private javax.swing.JButton jButton114;
+    private javax.swing.JButton jButton115;
+    private javax.swing.JButton jButton116;
+    private javax.swing.JButton jButton117;
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
@@ -6209,21 +6050,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
-    private javax.swing.JButton jButton37;
-    private javax.swing.JButton jButton38;
-    private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
-    private javax.swing.JButton jButton45;
     private javax.swing.JButton jButton46;
     private javax.swing.JButton jButton47;
     private javax.swing.JButton jButton48;
@@ -6277,6 +6104,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JButton jButton96;
     private javax.swing.JButton jButton97;
     private javax.swing.JButton jButton98;
+    private javax.swing.JButton jButton99;
     private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox10;
     private javax.swing.JComboBox jComboBox11;
@@ -6289,7 +6117,6 @@ public class Cloth2View extends FrameView {
     private javax.swing.JComboBox jComboBox22;
     private javax.swing.JComboBox jComboBox23;
     private javax.swing.JComboBox jComboBox3;
-    private javax.swing.JComboBox jComboBox4;
     private javax.swing.JComboBox jComboBox5;
     private javax.swing.JComboBox jComboBox6;
     private javax.swing.JComboBox jComboBox7;
@@ -6324,6 +6151,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JLabel jLabel121;
     private javax.swing.JLabel jLabel122;
     private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
     private javax.swing.JLabel jLabel125;
     private javax.swing.JLabel jLabel126;
     private javax.swing.JLabel jLabel127;
@@ -6453,13 +6281,6 @@ public class Cloth2View extends FrameView {
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
     private javax.swing.JLabel jLabel52;
-    private javax.swing.JLabel jLabel53;
-    private javax.swing.JLabel jLabel54;
-    private javax.swing.JLabel jLabel55;
-    private javax.swing.JLabel jLabel56;
-    private javax.swing.JLabel jLabel57;
-    private javax.swing.JLabel jLabel58;
-    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
@@ -6510,7 +6331,6 @@ public class Cloth2View extends FrameView {
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
@@ -6530,6 +6350,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel34;
     private javax.swing.JPanel jPanel35;
     private javax.swing.JPanel jPanel36;
@@ -6561,9 +6382,8 @@ public class Cloth2View extends FrameView {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel60;
     private javax.swing.JPanel jPanel61;
+    private javax.swing.JPanel jPanel62;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -6591,11 +6411,7 @@ public class Cloth2View extends FrameView {
     private javax.swing.JTextField jTextField16;
     private javax.swing.JTextField jTextField17;
     private javax.swing.JTextField jTextField18;
-    private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField20;
-    private javax.swing.JTextField jTextField21;
-    private javax.swing.JTextField jTextField22;
     private javax.swing.JTextField jTextField23;
     private javax.swing.JTextField jTextField24;
     private javax.swing.JTextField jTextField25;

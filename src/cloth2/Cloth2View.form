@@ -518,7 +518,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="0" y="0" width="1160" height="530"/>
+                      <AbsoluteConstraints x="0" y="0" width="1150" height="530"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -861,12 +861,25 @@
                     <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
                       <action class="cloth2.Cloth2View" id="suplierpayment" methodName="suplierpayment"/>
                     </Property>
+                    <Property name="icon" type="javax.swing.Icon" resourceKey="jButton88.icon"/>
                     <Property name="text" type="java.lang.String" resourceKey="jButton88.text"/>
                     <Property name="name" type="java.lang.String" value="jButton88" noResource="true"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="720" y="260" width="160" height="140"/>
+                      <AbsoluteConstraints x="720" y="250" width="160" height="140"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel124">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" resourceKey="jLabel124.font"/>
+                    <Property name="text" type="java.lang.String" resourceKey="jLabel124.text"/>
+                    <Property name="name" type="java.lang.String" value="jLabel124" noResource="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="710" y="390" width="262" height="60"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -1452,7 +1465,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="600" y="10" width="390" height="180"/>
+                      <AbsoluteConstraints x="550" y="10" width="390" height="180"/>
                     </Constraint>
                   </Constraints>
 
@@ -1921,22 +1934,19 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel8">
+                <Container class="javax.swing.JPanel" name="jPanel33">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                        <LineBorder/>
+                      <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                        <MatteColorBorder bottom="2" left="2" right="2" top="2"/>
                       </Border>
                     </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel8" noResource="true"/>
+                    <Property name="name" type="java.lang.String" value="jPanel33" noResource="true"/>
                     <Property name="opaque" type="boolean" value="false"/>
-                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                      <Dimension value="[35, 50]"/>
-                    </Property>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="430" width="980" height="80"/>
+                      <AbsoluteConstraints x="80" y="430" width="850" height="80"/>
                     </Constraint>
                   </Constraints>
 
@@ -1945,35 +1955,29 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton32" min="-2" pref="101" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Component id="jButton37" min="-2" pref="110" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                              <Component id="jButton33" min="-2" pref="108" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                              <Component id="jButton38" min="-2" pref="104" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="jButton34" min="-2" pref="115" max="-2" attributes="0"/>
-                              <EmptySpace pref="37" max="32767" attributes="0"/>
-                              <Component id="jButton36" min="-2" pref="104" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                              <Component id="jButton35" min="-2" pref="105" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jButton103" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton99" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton101" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton107" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton102" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton36" alignment="3" max="32767" attributes="0"/>
-                                  <Component id="jButton34" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton38" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                                  <Component id="jButton33" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                                  <Component id="jButton37" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton32" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="jButton99" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton101" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton102" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton103" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton107" alignment="3" pref="54" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -1981,322 +1985,53 @@
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JButton" name="jButton32">
+                    <Component class="javax.swing.JButton" name="jButton99">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton32.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton32.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton32.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton32" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton103.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton99.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton99.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton99" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton33">
+                    <Component class="javax.swing.JButton" name="jButton101">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton33.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton33.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton33.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton33" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="itemsearch" methodName="itemsearch"/>
                         </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton103.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton101.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton101.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton101" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton34">
+                    <Component class="javax.swing.JButton" name="jButton102">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton34.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton34.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton34.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton34" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="update" methodName="update"/>
                         </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton103.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton102.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton102.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton102" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton35">
+                    <Component class="javax.swing.JButton" name="jButton103">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton35.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton35.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton35.text"/>
-                        <Property name="actionCommand" type="java.lang.String" resourceKey="jButton35.actionCommand"/>
-                        <Property name="name" type="java.lang.String" value="jButton35" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton103.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton103.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton103.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton103" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton36">
+                    <Component class="javax.swing.JButton" name="jButton107">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton36.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton36.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton36.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton36" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="deleteproduct" methodName="deleteproduct"/>
                         </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="jButton37">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton37.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton37.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton37.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton37" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="jButton38">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton38.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton38.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton38.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton38" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Container class="javax.swing.JPanel" name="jPanel9">
-                  <Properties>
-                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-                        <TitledBorder justification="1" position="2" title="Additional Information">
-                          <Property name="titleX" resourceKey="jPanel9.border.title"/>
-                        </TitledBorder>
-                      </Border>
-                    </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel9" noResource="true"/>
-                    <Property name="opaque" type="boolean" value="false"/>
-                  </Properties>
-                  <Constraints>
-                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="600" y="200" width="390" height="220"/>
-                    </Constraint>
-                  </Constraints>
-
-                  <Layout>
-                    <DimensionLayout dim="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel55" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
-                                          <Component id="jLabel58" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel56" max="32767" attributes="0"/>
-                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                      <Component id="jComboBox4" min="-2" pref="174" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel54" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel53" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jTextField19" alignment="1" min="-2" pref="173" max="-2" attributes="0"/>
-                                          <Component id="jTextField20" alignment="1" min="-2" pref="173" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel59" alignment="0" min="-2" pref="124" max="-2" attributes="0"/>
-                                          <Component id="jLabel57" alignment="0" min="-2" pref="124" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace pref="71" max="32767" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jTextField22" alignment="1" min="-2" pref="173" max="-2" attributes="0"/>
-                                          <Component id="jTextField21" alignment="1" min="-2" pref="173" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                    <DimensionLayout dim="1">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel53" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jTextField20" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel54" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jTextField19" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel56" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jComboBox4" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jLabel59" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Component id="jTextField21" alignment="3" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField22" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
-                                  <Component id="jLabel57" alignment="0" min="-2" pref="30" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                              <Component id="jLabel58" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel55" min="-2" pref="30" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                      </Group>
-                    </DimensionLayout>
-                  </Layout>
-                  <SubComponents>
-                    <Component class="javax.swing.JLabel" name="jLabel53">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel50.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel53.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel53" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel54">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel50.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel54.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel54" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel55">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel55.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel55.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel55" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel56">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel50.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel56.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel56" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel57">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel50.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel57.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel57" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel58">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel58.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel58.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel58" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField19">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jTextField10.font"/>
-                        <Property name="disabledTextColor" type="java.awt.Color" resourceKey="jTextField19.disabledTextColor"/>
-                        <Property name="name" type="java.lang.String" value="jTextField19" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 30]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField20">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jTextField10.font"/>
-                        <Property name="disabledTextColor" type="java.awt.Color" resourceKey="jTextField20.disabledTextColor"/>
-                        <Property name="name" type="java.lang.String" value="jTextField20" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 30]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel59">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jLabel50.font"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jLabel59.text"/>
-                        <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 35]"/>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jLabel59" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField21">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jTextField10.font"/>
-                        <Property name="disabledTextColor" type="java.awt.Color" resourceKey="jTextField21.disabledTextColor"/>
-                        <Property name="name" type="java.lang.String" value="jTextField21" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[65, 30]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JComboBox" name="jComboBox4">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jTextField10.font"/>
-                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-                          <StringArray count="2">
-                            <StringItem index="0" value="Credit"/>
-                            <StringItem index="1" value="Cash"/>
-                          </StringArray>
-                        </Property>
-                        <Property name="name" type="java.lang.String" value="jComboBox4" noResource="true"/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField22">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jTextField10.font"/>
-                        <Property name="name" type="java.lang.String" value="jTextField22" noResource="true"/>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton103.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton107.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton107.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton107" noResource="true"/>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -2892,7 +2627,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="390" y="10" width="420" height="260"/>
+                      <AbsoluteConstraints x="390" y="10" width="420" height="280"/>
                     </Constraint>
                   </Constraints>
 
@@ -2976,14 +2711,11 @@
                                   <Component id="jLabel76" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <Component id="jButton54" min="-2" pref="46" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jButton54" pref="46" max="32767" attributes="0"/>
                                   <Component id="jButton49" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace pref="29" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -3362,7 +3094,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="0" y="0" width="520" height="400"/>
+                      <AbsoluteConstraints x="10" y="20" width="520" height="400"/>
                     </Constraint>
                   </Constraints>
 
@@ -3892,22 +3624,19 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Container class="javax.swing.JPanel" name="jPanel15">
+                <Container class="javax.swing.JPanel" name="jPanel62">
                   <Properties>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
-                        <LineBorder/>
+                      <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                        <MatteColorBorder bottom="2" left="2" right="2" top="2"/>
                       </Border>
                     </Property>
-                    <Property name="name" type="java.lang.String" value="jPanel15" noResource="true"/>
+                    <Property name="name" type="java.lang.String" value="jPanel62" noResource="true"/>
                     <Property name="opaque" type="boolean" value="false"/>
-                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                      <Dimension value="[35, 50]"/>
-                    </Property>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="10" y="430" width="980" height="80"/>
+                      <AbsoluteConstraints x="80" y="440" width="850" height="80"/>
                     </Constraint>
                   </Constraints>
 
@@ -3916,35 +3645,29 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jButton39" min="-2" pref="101" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Component id="jButton44" min="-2" pref="110" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                              <Component id="jButton40" min="-2" pref="108" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                              <Component id="jButton45" min="-2" pref="104" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                              <Component id="jButton41" min="-2" pref="115" max="-2" attributes="0"/>
-                              <EmptySpace pref="37" max="32767" attributes="0"/>
-                              <Component id="jButton43" min="-2" pref="104" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                              <Component id="jButton42" min="-2" pref="105" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="jButton116" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton113" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton114" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton117" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton115" min="-2" pref="149" max="-2" attributes="0"/>
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
-                                  <Component id="jButton42" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton43" alignment="3" max="32767" attributes="0"/>
-                                  <Component id="jButton41" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton45" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                                  <Component id="jButton40" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                                  <Component id="jButton44" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jButton39" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="jButton113" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton114" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton115" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton116" alignment="3" pref="54" max="32767" attributes="0"/>
+                                  <Component id="jButton117" alignment="3" pref="54" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
@@ -3952,82 +3675,53 @@
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JButton" name="jButton39">
+                    <Component class="javax.swing.JButton" name="jButton113">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton39.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton39.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton39.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton39" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton113.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton113.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton113.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton113" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton40">
+                    <Component class="javax.swing.JButton" name="jButton114">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton40.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton40.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton40.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton40" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="itemsearch" methodName="itemsearch"/>
                         </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton113.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton114.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton114.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton114" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton41">
+                    <Component class="javax.swing.JButton" name="jButton115">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton41.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton41.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton41.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton41" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="update" methodName="update"/>
                         </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton113.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton115.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton115.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton115" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton42">
+                    <Component class="javax.swing.JButton" name="jButton116">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton42.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton42.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton42.text"/>
-                        <Property name="actionCommand" type="java.lang.String" resourceKey="jButton42.actionCommand"/>
-                        <Property name="name" type="java.lang.String" value="jButton42" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton113.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton116.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton116.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton116" noResource="true"/>
                       </Properties>
                     </Component>
-                    <Component class="javax.swing.JButton" name="jButton43">
+                    <Component class="javax.swing.JButton" name="jButton117">
                       <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton43.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton43.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton43.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton43" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
+                        <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                          <action class="cloth2.Cloth2View" id="deleteproduct" methodName="deleteproduct"/>
                         </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="jButton44">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton44.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton44.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton44.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton44" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JButton" name="jButton45">
-                      <Properties>
-                        <Property name="font" type="java.awt.Font" resourceKey="jButton45.font"/>
-                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton45.icon"/>
-                        <Property name="text" type="java.lang.String" resourceKey="jButton45.text"/>
-                        <Property name="name" type="java.lang.String" value="jButton45" noResource="true"/>
-                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-                          <Dimension value="[40, 50]"/>
-                        </Property>
+                        <Property name="font" type="java.awt.Font" resourceKey="jButton113.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton117.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="jButton117.text"/>
+                        <Property name="name" type="java.lang.String" value="jButton117" noResource="true"/>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -4169,7 +3863,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="300" y="20" width="420" height="200"/>
+                      <AbsoluteConstraints x="300" y="20" width="420" height="220"/>
                     </Constraint>
                   </Constraints>
 
@@ -4226,11 +3920,12 @@
                                       <Component id="jTextField48" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jButton72" alignment="1" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <Component id="jButton48" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton72" min="-2" pref="40" max="-2" attributes="0"/>
+                                  <Component id="jButton48" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
+                              <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -4342,7 +4037,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="20" y="220" width="1000" height="300"/>
+                      <AbsoluteConstraints x="20" y="260" width="1000" height="260"/>
                     </Constraint>
                   </Constraints>
 
@@ -4354,7 +4049,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="277" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="237" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -4431,7 +4126,7 @@
                               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="163" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
                               <Component id="jButton100" min="-2" pref="139" max="-2" attributes="0"/>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -4459,9 +4154,9 @@
                                       <Component id="jTextField60" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton100" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton100" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -4575,6 +4270,7 @@
                   <SubComponents>
                     <Component class="javax.swing.JButton" name="jButton79">
                       <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton79.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton79.text"/>
                         <Property name="name" type="java.lang.String" value="jButton79" noResource="true"/>
                       </Properties>
@@ -4782,12 +4478,12 @@
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                                      <Component id="jButton77" min="-2" pref="82" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton63" min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="jButton77" min="-2" pref="108" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton63" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -4808,14 +4504,13 @@
                                       <Component id="jLabel129" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="54" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jButton78" alignment="0" max="32767" attributes="0"/>
-                                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                                      <Component id="jButton77" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                      <Component id="jButton63" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                                  </Group>
+                              <EmptySpace pref="43" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jButton78" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="jButton77" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Component id="jButton63" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                               </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -4848,6 +4543,7 @@
                     <Component class="javax.swing.JButton" name="jButton63">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton63.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton63.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton63.text"/>
                         <Property name="name" type="java.lang.String" value="jButton63" noResource="true"/>
                       </Properties>
@@ -4855,6 +4551,7 @@
                     <Component class="javax.swing.JButton" name="jButton77">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton77.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton77.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton77.text"/>
                         <Property name="name" type="java.lang.String" value="jButton77" noResource="true"/>
                       </Properties>
@@ -4862,6 +4559,7 @@
                     <Component class="javax.swing.JButton" name="jButton78">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton78.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton78.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton78.text"/>
                         <Property name="name" type="java.lang.String" value="jButton78" noResource="true"/>
                       </Properties>
@@ -8294,6 +7992,7 @@
                   <SubComponents>
                     <Component class="javax.swing.JButton" name="jButton84">
                       <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton84.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton84.text"/>
                         <Property name="name" type="java.lang.String" value="jButton84" noResource="true"/>
                       </Properties>
@@ -8509,9 +8208,13 @@
                                       <Component id="jTextField92" alignment="0" min="-2" pref="173" max="-2" attributes="0"/>
                                   </Group>
                                   <Component id="jTextField93" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="jButton106" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton106" min="-2" pref="160" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -8535,11 +8238,11 @@
                                       <Component id="jTextField92" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                       <Component id="jTextField93" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jButton106" min="-2" pref="52" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jButton106" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -8617,6 +8320,7 @@
                     <Component class="javax.swing.JButton" name="jButton106">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton106.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton106.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton106.text"/>
                         <Property name="name" type="java.lang.String" value="jButton106" noResource="true"/>
                       </Properties>
@@ -8649,26 +8353,28 @@
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="jButton87" alignment="0" max="32767" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <EmptySpace min="0" pref="8" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel120" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
                                           <Component id="jLabel132" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
-                                      <Component id="jTextField63" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
-                                      <Component id="jTextField62" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
-                                  </Group>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField63" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                          <Component id="jTextField62" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                                      <Component id="jButton86" min="-2" pref="82" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jButton85" min="-2" pref="94" max="-2" attributes="0"/>
+                                      <Component id="jButton86" pref="97" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton85" min="-2" pref="115" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -8729,22 +8435,34 @@
                     <Component class="javax.swing.JButton" name="jButton85">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton85.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton85.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton85.text"/>
                         <Property name="name" type="java.lang.String" value="jButton85" noResource="true"/>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[30, 30]"/>
+                        </Property>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton86">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton86.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton86.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton86.text"/>
                         <Property name="name" type="java.lang.String" value="jButton86" noResource="true"/>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[30, 30]"/>
+                        </Property>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton87">
                       <Properties>
                         <Property name="font" type="java.awt.Font" resourceKey="jButton87.font"/>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="jButton87.icon"/>
                         <Property name="text" type="java.lang.String" resourceKey="jButton87.text"/>
                         <Property name="name" type="java.lang.String" value="jButton87" noResource="true"/>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[30, 30]"/>
+                        </Property>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -8778,12 +8496,14 @@
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
                   <action class="cloth2.Cloth2View" id="backback" methodName="backback"/>
                 </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="jButton61.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="jButton61.icon"/>
                 <Property name="text" type="java.lang.String" resourceKey="jButton61.text"/>
                 <Property name="name" type="java.lang.String" value="jButton61" noResource="true"/>
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1290" y="0" width="100" height="70"/>
+                  <AbsoluteConstraints x="1230" y="10" width="150" height="70"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -8797,7 +8517,7 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1150" y="0" width="130" height="70"/>
+                  <AbsoluteConstraints x="1090" y="10" width="130" height="70"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -8809,7 +8529,7 @@
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="-120" y="0" width="1510" height="77"/>
+                  <AbsoluteConstraints x="-120" y="0" width="1510" height="90"/>
                 </Constraint>
               </Constraints>
             </Component>
@@ -8993,6 +8713,6 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-82,0,0,5,113"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,-72,0,0,5,113"/>
   </AuxValues>
 </Form>
