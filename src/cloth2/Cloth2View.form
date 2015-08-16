@@ -6081,6 +6081,7 @@
                             <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
                               <action class="cloth2.Cloth2View" id="itemsearch" methodName="itemsearch"/>
                             </Property>
+                            <Property name="icon" type="javax.swing.Icon" resourceKey="jButton109.icon"/>
                             <Property name="text" type="java.lang.String" resourceKey="jButton109.text"/>
                             <Property name="name" type="java.lang.String" value="jButton109" noResource="true"/>
                           </Properties>

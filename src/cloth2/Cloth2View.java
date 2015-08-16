@@ -3894,6 +3894,7 @@ public class Cloth2View extends FrameView {
         jButton108.setName("jButton108"); // NOI18N
 
         jButton109.setAction(actionMap.get("itemsearch")); // NOI18N
+        jButton109.setIcon(resourceMap.getIcon("jButton109.icon")); // NOI18N
         jButton109.setText(resourceMap.getString("jButton109.text")); // NOI18N
         jButton109.setName("jButton109"); // NOI18N
 
